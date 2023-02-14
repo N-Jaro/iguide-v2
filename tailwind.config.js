@@ -32,7 +32,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        '"Inter"',
+        'Inter',
         'system-ui',
         '-apple-system',
         'BlinkMacSystemFont',

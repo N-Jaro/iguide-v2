@@ -1,44 +1,6 @@
 var slideNumber=1;
 
 $(function () {
-    $('#main-menu').slicknav({
-        label: '',
-        prependTo: 'body',
-        closedSymbol: '<span class="icon-chevron-right"></span>',
-        openedSymbol: '<span class="icon-chevron-down"></span>',
-        init: function(){
-            
-            $('.slicknav_menu').prepend('<div class="mobileLogoWrap"><img class="logo-c mobilLogo" src="./assets/images/logo-color.png"alt=""><img class="mobilLogo logo-w" src="./assets/images/logo-w.png"alt=""></div>');
-            // Add the arrows to navigation items
-            $('#navigation #main-menu>li.menu-item-has-children > a').append('<span class="icon-angle-down"></span>');
-            $('#navigation #main-menu>li>ul.sub-menu>li.menu-item-has-children > a').prepend('<span class="icon-angle-left"></span>');
-
-            $('.slicknav_menu').addClass('close');
-            $('.slicknav_menu').css('background-color','transparent');
-            $('.logo-c').css('display','none');
-            $('.logo-w').css('display','block');
-            $('.slicknav_menu .slicknav_icon-bar').css('background-color', 'white');
-        },
-        beforeOpen: function(trigger){
-            if($(trigger).hasClass('slicknav_btn')){ 
-                $('.slicknav_menu').addClass('open');
-                $('.slicknav_menu').css('background-color','white');
-                $('.logo-c').css('display','block');
-                $('.logo-w').css('display','none');
-                $('.slicknav_menu .slicknav_icon-bar').css('background-color', 'black');
-            }
-        }, 
-        afterClose: function(trigger){
-            if($(trigger).hasClass('slicknav_btn')){ 
-                $('.slicknav_menu').addClass('close');
-                $('.slicknav_menu').css('background-color','transparent');
-                $('.logo-c').css('display','none');
-                $('.logo-w').css('display','block');
-                $('.slicknav_menu .slicknav_icon-bar').css('background-color', 'white');
-            }
-        }
-    });
-
 
 
     // Hide Header on on scroll down

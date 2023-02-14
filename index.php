@@ -1,191 +1,8 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<?php 
+    get_header();
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;900&display=swap" rel="stylesheet">
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">    
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/navigation.css">
-    <title>I-GUIDE</title>
-</head>
-
-<body>
-    <nav id="navigation" class="tw-sticky tw-top-0 tw-z-50 tw-p-0 scrolledDown">
-        <div id="desktop-menu" class="tw-hidden md:tw-flex tw-items-center tw-justify-between tw-flex-wrap tw-bg-transparent md:tw-h-[100px] lg:tw-h-[120px] md:tw-px-5 lg:tw-px-20">
-            <div class="tw-flex tw-items-center tw-flex-shrink-0 tw-ml-3 md:tw-ml-4 tw-mr-6">
-                <img class="logo-color tw-h-[56px] tw-w-[115px] xl:tw-p-0 xl:tw-h-[80px] xl:tw-w-[165px]" src="assets/images/logo-color.png" alt="">
-                <img class="logo-white tw-h-[56px] tw-w-[115px] xl:tw-p-0 xl:tw-h-[80px] xl:tw-w-[165px]" src="assets/images/logo-w.png" alt="">
-            </div>
-            <div class="menu-main-navigation-container ">
-                <ul id="main-menu"
-                    class="nav tw-hidden md:tw-flex tw-items-center tw-text-sm xl:tw-text-base tw-space-x-4 xl:tw-space-x-8 tw-font-light">
-                    <li id="menu-item-28"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28">
-                        <a href="page.html">Overview</a>
-                        <ul class="sub-menu">
-                            <li id="menu-item-180"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a
-                                    href="page.html">About</a></li>
-                            <li id="menu-item-179"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a
-                                    href="page.html">Leadership</a></li>
-                            <li id="menu-item-427"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-427">
-                                <a href="page.html">I-GUIDE Teams</a>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-129"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129">
-                                        <a href="page.html">Convergence Science
-                                            Catalysts</a>
-                                    </li>
-                                    <li id="menu-item-124"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124">
-                                        <a href="page.html">Geospatial Artificial Intelligence
-                                            &amp;
-                                            Data Science</a>
-                                    </li>
-                                    <li id="menu-item-128"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-128">
-                                        <a href="page.html">Core Cyberinfrastructure
-                                            Capabilities
-                                            &amp; Services</a>
-                                    </li>
-                                    <li id="menu-item-127"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-127">
-                                        <a href="page.html">Education &amp; Workforce
-                                            Development</a>
-                                    </li>
-                                    <li id="menu-item-126"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126">
-                                        <a href="page.html">Engagement &amp;
-                                            Partnerships</a>
-                                    </li>
-                                    <li id="menu-item-125"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125">
-                                        <a href="page.html">Evaluation &amp; Knowledge
-                                            Transfer</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li id="menu-item-315"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315"><a
-                                    href="page.html">Partners</a></li>
-                            <li id="menu-item-483"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-483"><a
-                                    href="page.html">External
-                                    Advisory Board</a></li>
-                            <li id="menu-item-966"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-966"><a
-                                    href="page.html">FAQ</a></li>
-                        </ul>
-                    </li>
-                    <li id="menu-item-1208"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1208">
-                        <a href="#">Stories &amp; Outreach</a>
-                        <ul class="sub-menu">
-                            <li id="menu-item-579"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-579"><a
-                                    href="page.html">News &amp; Happenings</a></li>
-                            <li id="menu-item-1229"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1229"><a
-                                    href="page.html">Convergence
-                                    Science</a>
-                            </li>
-                            <li id="menu-item-1206"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1206">
-                                <a href="#">Activities &amp; Events</a>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-1266"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1266">
-                                        <a href="page.html">Summer School 2023</a>
-                                    </li>
-                                    <li id="menu-item-1211"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1211">
-                                        <a href="page.html">Virtual Consulting Office</a>
-                                    </li>
-                                    <li id="menu-item-460"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-460">
-                                        <a href="page.html">Webinars</a>
-                                    </li>
-                                    <li id="menu-item-703"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-703">
-                                        <a href="#">All-Hands Meetings</a>
-                                        <ul class="sub-menu">
-                                            <li id="menu-item-677"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-677">
-                                                <a href="page.html">I-GUIDE
-                                                    AHM 2022 (Virtual)</a>
-                                            </li>
-                                            <li id="menu-item-830"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-830">
-                                                <a href="page.html">I-GUIDE
-                                                    AHM 2022 (In-person)</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li id="menu-item-459"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-459">
-                                <a href="#">Conferences</a>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-772"
-                                        class="menu-item menu-item-type-post_type menu-item-object-news_events menu-item-772">
-                                        <a href="page.html">AGU
-                                            2022</a>
-                                    </li>
-                                    <li id="menu-item-1110"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110">
-                                        <a href="page.html">AAG
-                                            2023</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li id="menu-item-696"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-696"><a
-                                    href="page.html">Calendar</a></li>
-                        </ul>
-                    </li>
-                    <li id="menu-item-1032"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1032">
-                        <a href="#">Initiatives &amp; Resources<i class="fas fa-sort-down ml-2"
-                                aria-hidden="true"></i></a>
-                        <ul class="sub-menu">
-                            <li id="menu-item-1030"
-                                class="platform menu-item menu-item-type-post_type menu-item-object-page menu-item-1030">
-                                <a target="_blank" rel="noopener" href="page.html">I-GUIDE
-                                    Platform</a>
-                            </li>
-                            <li id="menu-item-1031"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1031"><a
-                                    href="page.html">Resources
-                                    Catalog</a></li>
-                            <li id="menu-item-1559"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559"><a
-                                    href="page.html">Geoethics</a></li>
-                            <li id="menu-item-1267"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1267"><a
-                                    href="page.html">Convergence
-                                    Curriculum for Geospatial Data Science</a></li>
-                        </ul>
-                    </li>
-                    <li id="menu-item-205"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205"><a
-                            href="page.html">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    
-    <div class="hero-section tw-relative tw-pb-5 md:tw-pb-[130px] tw-pt-[100px] tw--mt-[70px] md:tw--mt-[200px] md:tw-pt-[200px] tw-overflow-hidden">
+<div class="hero-section tw-relative tw-pb-5 md:tw-pb-[130px] tw-pt-[100px] tw--mt-[70px] md:tw--mt-[200px] md:tw-pt-[200px] tw-overflow-hidden">
         <div class="tw-w-full">
             <div class="tw-flex tw-flex-col md:tw-px-10 md:tw-flex-row md:tw-gap-5 lg:tw-gap-10 tw-justify-start">
                 <div class="vw-screen tw-px-10 md:tw-w-4/12 lg:tw-w-1/3 md:tw-mt-7 md:tw-pl-5 lg:tw-mt-10 lg:tw-pl-17">
@@ -205,22 +22,22 @@
                         <div id="map-slide" class="hero-tab-content tw-p-0 lg:tw-p-2 z-20">
                             <div class="md:tw-grid md:tw-grid-cols-7 md:tw-gap-5 lg:tw-gap-7">
                                 <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-span-2 tw-row-span-2 tw-ease-in tw-duration-300 tw-h-fit tw-overflow-hidden tw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md hover:tw-scale-110 hover:tw-drop-shadow-2xl animate__delay-1s">
-                                    <img src="assets/images/top1.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
                                     </h1>
                                 </div>
                                 <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden  tw-drop-shadow-md hover:tw-scale-110 hover:tw-drop-shadow-2xl animate__delay-2s">
-                                    <img src="assets/images/top2.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top2.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">The first in-person
                                         I-GUIDE AHM!</h1>
                                 </div>
                                 <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden  tw-drop-shadow-md hover:tw-scale-110 hover:tw-drop-shadow-2xl animate__delay-3s">
-                                    <img src="assets/images/top3.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top3.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">I-GUIDE All-Hands Meeting
                                         (Virtual) </h1>
                                 </div>
                                 <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 tw-hidden md:tw-flex md:tw-m-0 md:tw-max-h-none animate tw-col-start-6 tw-col-span-2 tw-row-start-1 tw-ease-in tw-duration-300 tw-row-span-2 tw-h-fit tw-relative md:tw-mt-20 tw-rounded-lg tw-overflow-hidden  tw-drop-shadow-md hover:tw-scale-110 hover:tw-drop-shadow-2xl animate__delay-4s">
-                                    <img src="assets/images/top1.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
                                     </h1>
                                 </div>
@@ -229,22 +46,22 @@
                         <div id="connect-slide" class="hero-tab-content tw-p-0 lg:tw-p-2 z-20">
                             <div class="md:tw-grid md:tw-grid-cols-7 md:tw-gap-5 lg:tw-gap-7">
                                 <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-span-2 tw-row-span-2 tw-ease-in tw-duration-300 tw-h-fit tw-overflow-hidden tw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md hover:tw-scale-110 hover:tw-drop-shadow-2xl animate__delay-1s">
-                                    <img src="assets/images/top1.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
                                     </h1>
                                 </div>
                                 <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden  tw-drop-shadow-md hover:tw-scale-110 hover:tw-drop-shadow-2xl animate__delay-2s">
-                                    <img src="assets/images/top2.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top2.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">The first in-person
                                         I-GUIDE AHM!</h1>
                                 </div>
                                 <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden  tw-drop-shadow-md hover:tw-scale-110 hover:tw-drop-shadow-2xl animate__delay-3s">
-                                    <img src="assets/images/top3.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top3.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">I-GUIDE All-Hands Meeting
                                         (Virtual) </h1>
                                 </div>
                                 <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 tw-hidden md:tw-flex md:tw-m-0 md:tw-max-h-none animate tw-col-start-6 tw-col-span-2 tw-row-start-1 tw-ease-in tw-duration-300 tw-row-span-2 tw-h-fit tw-relative md:tw-mt-20 tw-rounded-lg tw-overflow-hidden  tw-drop-shadow-md hover:tw-scale-110 hover:tw-drop-shadow-2xl animate__delay-4s">
-                                    <img src="assets/images/top1.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
                                     </h1>
                                 </div>
@@ -253,22 +70,22 @@
                         <div id="discover-slide" class="hero-tab-content tw-p-0 lg:tw-p-2 z-20">
                             <div class="md:tw-grid md:tw-grid-cols-7 md:tw-gap-5 lg:tw-gap-7">
                                 <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-span-2 tw-row-span-2 tw-ease-in tw-duration-300 tw-h-fit tw-overflow-hidden tw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md hover:tw-scale-110 hover:tw-drop-shadow-2xl animate__delay-1s">
-                                    <img src="assets/images/top1.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
                                     </h1>
                                 </div>
                                 <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden  tw-drop-shadow-md hover:tw-scale-110 hover:tw-drop-shadow-2xl animate__delay-2s">
-                                    <img src="assets/images/top2.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top2.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">The first in-person
                                         I-GUIDE AHM!</h1>
                                 </div>
                                 <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden  tw-drop-shadow-md hover:tw-scale-110 hover:tw-drop-shadow-2xl animate__delay-3s">
-                                    <img src="assets/images/top3.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top3.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">I-GUIDE All-Hands Meeting
                                         (Virtual) </h1>
                                 </div>
                                 <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 tw-hidden md:tw-flex md:tw-m-0 md:tw-max-h-none animate tw-col-start-6 tw-col-span-2 tw-row-start-1 tw-ease-in tw-duration-300 tw-row-span-2 tw-h-fit tw-relative md:tw-mt-20 tw-rounded-lg tw-overflow-hidden  tw-drop-shadow-md hover:tw-scale-110 hover:tw-drop-shadow-2xl animate__delay-4s">
-                                    <img src="assets/images/top1.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
                                     </h1>
                                 </div>
@@ -356,7 +173,7 @@
                         </div>
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
                             <div class="tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
-                                <img src="assets/images/dam.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dam.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -378,7 +195,7 @@
                         </div>
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
                             <div class="tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
-                                <img src="assets/images/dam.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dam.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -400,7 +217,7 @@
                         </div>
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
                             <div class="tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
-                                <img src="assets/images/dam.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dam.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -422,7 +239,7 @@
                         </div>
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
                             <div class="tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
-                                <img src="assets/images/dam.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dam.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -439,7 +256,7 @@
         <h1 class="tw-text-2xl lg:tw-text-3xl tw-font-semibold">NEWS AND UPDATES</h1>
         <div class="news-grid tw-grid md:tw-grid-cols-3 lg:tw-grid-cols-4 md:tw-grid-rows-2 md:tw-grid-flow-row tw-gap-3 md:tw-gap-5 lg:tw-gap-7  tw-mt-5">
             <div class="tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
-                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="assets/images/top1.png" alt="Sunset in the mountains">
+                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="Sunset in the mountains">
                 <div class="tw-px-2 md:tw-px-6 tw-py-4">
                     <div class="tw-font-semibold tw-text-base lg:tw-text-xl tw-mb-2">December 2022 Newsletter 1</div>
                     <p class="tw-text-gray-400 tw-font-light tw-italic tw-text-xs lg:tw-text-base">
@@ -448,7 +265,7 @@
                 </div>
             </div>
             <div class="tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
-                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="assets/images/top1.png" alt="Sunset in the mountains">
+                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="Sunset in the mountains">
                 <div class="tw-px-2 md:tw-px-6 tw-py-4">
                     <div class="tw-font-semibold tw-text-base lg:tw-text-xl tw-mb-2">December 2022 Newsletter 1</div>
                     <p class="tw-text-gray-400 tw-font-light tw-italic tw-text-xs lg:tw-text-base">
@@ -457,7 +274,7 @@
                 </div>
             </div>
             <div class="tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
-                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="assets/images/top1.png" alt="Sunset in the mountains">
+                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="Sunset in the mountains">
                 <div class="tw-px-2 md:tw-px-6 tw-py-4">
                     <div class="tw-font-semibold tw-text-base lg:tw-text-xl tw-mb-2">December 2022 Newsletter 1</div>
                     <p class="tw-text-gray-400 tw-font-light tw-italic tw-text-xs lg:tw-text-base">
@@ -466,7 +283,7 @@
                 </div>
             </div>
             <div class="tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
-                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="assets/images/top1.png" alt="Sunset in the mountains">
+                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="Sunset in the mountains">
                 <div class="tw-px-2 md:tw-px-6 tw-py-4">
                     <div class="tw-font-semibold tw-text-base lg:tw-text-xl tw-mb-2">December 2022 Newsletter 1</div>
                     <p class="tw-text-gray-400 tw-font-light tw-italic tw-text-xs lg:tw-text-base">
@@ -475,7 +292,7 @@
                 </div>
             </div>
             <div class="tw-hidden lg:tw-block tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
-                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="assets/images/top1.png" alt="Sunset in the mountains">
+                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="Sunset in the mountains">
                 <div class="tw-px-2 md:tw-px-6 tw-py-4">
                     <div class="tw-font-semibold tw-text-base lg:tw-text-xl tw-mb-2">December 2022 Newsletter 5</div>
                     <p class="tw-text-gray-400 tw-font-light tw-italic tw-text-xs lg:tw-text-base">
@@ -484,7 +301,7 @@
                 </div>
             </div>
             <div class="tw-hidden lg:tw-block tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
-                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="assets/images/top1.png" alt="Sunset in the mountains">
+                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="Sunset in the mountains">
                 <div class="tw-px-2 md:tw-px-6 tw-py-4">
                     <div class="tw-font-semibold tw-text-base lg:tw-text-xl tw-mb-2">December 2022 Newsletter 5</div>
                     <p class="tw-text-gray-400 tw-font-light tw-italic tw-text-xs lg:tw-text-base">
@@ -559,61 +376,20 @@
     <div class="tw-collob-section tw-w-full tw-mt-12 tw-px-10 tw-max-w-full">
         <h1 class="tw-text-2xl lg:tw-text-3xl tw-font-semibold">Collaborating Institutions</h1>
         <div class="tw-flex tw-gap-x-5 tw-gap-y-10 md:tw-gap-y-10 tw-align-center tw-items-center tw-justify-content tw-mx-auto tw-flex-wrap tw-py-10 tw-mt-5">
-            <img src="assets/images/uiuc.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="assets/images/columbiauniv.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="assets/images/inst7.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="assets/images/fiu.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="assets/images/michiganstate.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="assets/images/inst9.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="assets/images/purdue.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="assets/images/inst10.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="assets/images/inst8.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="assets/images/minnesota.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="assets/images/utahstate.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/uiuc.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/columbiauniv.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/inst7.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fiu.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/michiganstate.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/inst9.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/purdue.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/inst10.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/inst8.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/minnesota.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/utahstate.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
         </div>
     </div>
 
-    <footer class="tw-flex tw-p-10">
-        <div class="tw-text-white">
-            <div class="tw-flex tw-flex-col tw-content-center md:tw-flex-row tw-justify-evenly">
-                <div class="tw-flex tw-content-center tw-my-auto tw-gap-x-5">
-                    <img src="assets/images/nsf.png" alt="" class="tw-h-[50px] md:tw-h-[7vw]">
-                    <div class="tw-text-xs lg:tw-text-base tw-text-white">
-                        <h1 class="tw-font-bold">©
-                            <script>document.write(new Date().getFullYear())</script> I-GUIDE All Rights Reserved
-                        </h1>
-                        <p class="tw-font-light tw-tracking-wide tw-leading-relaxed tw-mt-1">Institute for
-                            Geospatial Understanding through an Integrative Discovery Environment <br class="tw-hidden md:tw-block lg:tw-hidden"> (I-GUIDE)  <br class="tw-hidden lg:tw-block">  is supported by the National Science Foundation</p>
-                    </div>
-                </div>
-                <div class="tw-py-5 tw-flex tw-gap-5 tw-justify-center">
-                    <img src="assets/images/yt.png" alt="" class="tw-object-contain tw-max-w-[30px]">
-                    <img src="assets/images/tw.png" alt="" class="tw-object-contain tw-max-w-[30px]">
-                    <img src="assets/images/in.png" alt="" class="tw-object-contain tw-max-w-[30px]">
-                </div>
-            </div>
-            <div class="md:tw-mt-5 tw-mx-auto tw-text-center md:tw-w-9/12">
-                <p class="tw-text-[2.5vw] md:tw-text-[1.1vw] lg:tw-text-sm tw-font-light tw-inline-block">This material is based upon work supported by the National
-                    Science Foundation under award No. 2118329. Any opinions, findings, conclusions, or recommendations
-                    expressed in this material are those of the author(s) and do not necessarily reflect the views of
-                    the National Science Foundation.</p>
-            </div>
-        </div>
-        <div class="tw-pt-7  tw-mb-0 tw-mt-auto tw-text-white">
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css"
-        integrity="sha512-heyoieAHmpAL3BdaQMsbIOhVvGb4+pl4aGCZqWzX/f1BChRArrBy/XUZDHW9WVi5p6pf92pX4yjkfmdaIYa2QQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"
-        integrity="sha512-FmCXNJaXWw1fc3G8zO3WdwR2N23YTWDFDTM3uretxVIbZ7lvnjHkciW4zy6JGvnrgjkcNEk8UNtdGTLs2GExAw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-    <script type="text/javascript" src="assets/js/navigation.js"></script>
-</body>
-
-</html>
+<?php
+    get_footer();
+?>

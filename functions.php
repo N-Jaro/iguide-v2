@@ -14,6 +14,14 @@ register_nav_menus(
     )
 );
 
+function iguide_custom_styles() {
+    if (is_page('leadership')) { // Replace 'your-page-slug' with the slug of the page you want to add the CSS to
+        wp_enqueue_style('iguide-custom-style', get_stylesheet_directory_uri() . '/assets/css/page.css');
+    }
+}
+add_action('wp_enqueue_scripts', 'iguide_custom_styles');
+
+
 function get_page_ID_by_slug($slug)
 {
     $page = get_page_by_path($slug);

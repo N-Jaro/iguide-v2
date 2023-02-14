@@ -137,7 +137,7 @@
         <div class="tw-w-full tw-bg-gray-200" style="transform: rotate(-2deg); height:1px !important;"></div>
     </div>
 
-    <div class="project-section tw-px-10">
+    <div class="project-section tw-container tw-px-10">
         <div class="tw-flex">
             <div class="tw-w-full md:tw-w-3/4">
                 <h1 class="tw-text-2xl lg:tw-text-3xl tw-font-semibold">Overcoming Scientific and Societal Challenges</h1>
@@ -252,7 +252,7 @@
         <div class="tw-w-full tw-bg-gray-200" style="transform: rotate(2deg); height:1px !important;"></div>
     </div>
 
-    <div class="news-section tw-w-full tw-px-10 tw-my-10">
+    <div class="news-section tw-container tw-w-full tw-px-10 tw-my-10">
         <h1 class="tw-text-2xl lg:tw-text-3xl tw-font-semibold">NEWS AND UPDATES</h1>
         <div class="news-grid tw-grid md:tw-grid-cols-3 lg:tw-grid-cols-4 md:tw-grid-rows-2 md:tw-grid-flow-row tw-gap-3 md:tw-gap-5 lg:tw-gap-7  tw-mt-5">
             <div class="tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
@@ -317,76 +317,80 @@
     </div>
 
     <div class="maillist-section tw-bg-gray-100 tw-w-full tw-p-10">
-        <h1 class="tw-text-2xl lg:tw-text-3xl tw-font-semibold">Join I-GUIDE's Mailing List</h1>
-        <p class="tw-font-light tw-text-sm lg:tw-text-base tw-text-black tw-mt-5">Join I-GUIDE's mailing list for updates on geospatial
-            discovery and
-            innovation. Stay informed on community priorities, cutting-edge data capabilities, and exciting
-            advancements in various disciplines. Don't miss out on opportunities to participate in shaping the
-            future of geospatial data-intensive sciences. Sign up now!</p>
-        <form action="#" class=" tw-mt-5">
-            <div class="tw-flex tw-flex-col md:tw-flex-row tw-gap-5 tw-items-center tw-mx-auto tw-mb-3 tw-space-y-4 sm:tw-flex sm:tw-space-y-0">
-                <div class="tw-relative tw-w-full">
-                    <label for="email" class="tw-hidden tw-mb-2 tw-text-sm tw-font-semibold tw-text-gray-900">First name</label>
-                    <div class="tw-flex tw-absolute tw-inset-y-0 tw-left-0 tw-items-center tw-pl-3 tw-pointer-events-none">
-                        <svg class="tw-w-5 tw-h-5 tw-text-gray-500" fill="currentColor" viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-                        </svg>
+        <div class="tw-container">
+            <h1 class="tw-text-2xl lg:tw-text-3xl tw-font-semibold">Join I-GUIDE's Mailing List</h1>
+            <p class="tw-font-light tw-text-sm lg:tw-text-base tw-text-black tw-mt-5">Join I-GUIDE's mailing list for updates on geospatial
+                discovery and
+                innovation. Stay informed on community priorities, cutting-edge data capabilities, and exciting
+                advancements in various disciplines. Don't miss out on opportunities to participate in shaping the
+                future of geospatial data-intensive sciences. Sign up now!</p>
+            <form action="#" class=" tw-mt-5">
+                <div class="tw-flex tw-flex-col md:tw-flex-row tw-gap-5 tw-items-center tw-mx-auto tw-mb-3 tw-space-y-4 sm:tw-flex sm:tw-space-y-0">
+                    <div class="tw-relative tw-w-full">
+                        <label for="email" class="tw-hidden tw-mb-2 tw-text-sm tw-font-semibold tw-text-gray-900">First name</label>
+                        <div class="tw-flex tw-absolute tw-inset-y-0 tw-left-0 tw-items-center tw-pl-3 tw-pointer-events-none">
+                            <svg class="tw-w-5 tw-h-5 tw-text-gray-500" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                            </svg>
+                        </div>
+                        <input
+                            class="tw-block tw-p-3 tw-pl-10 tw-w-full tw-text-sm tw-text-gray-900 tw-bg-white tw-rounded-lg tw-border tw-border-gray-300 focus:tw-ring-primary-500 focus:tw-border-primary-500 "
+                            placeholder="First name" type="text" id="fn" required>
                     </div>
-                    <input
-                        class="tw-block tw-p-3 tw-pl-10 tw-w-full tw-text-sm tw-text-gray-900 tw-bg-white tw-rounded-lg tw-border tw-border-gray-300 focus:tw-ring-primary-500 focus:tw-border-primary-500 "
-                        placeholder="First name" type="text" id="fn" required>
-                </div>
-                <div class="tw-relative tw-w-full">
-                    <label for="email" class="tw-hidden tw-mb-2 tw-text-sm tw-font-semibold tw-text-gray-900">Last name</label>
-                    <div class="tw-flex tw-absolute tw-inset-y-0 tw-left-0 tw-items-center tw-pl-3 tw-pointer-events-none">
-                        <svg class="tw-w-5 tw-h-5 tw-text-gray-500" fill="currentColor"
-                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-                        </svg>
+                    <div class="tw-relative tw-w-full">
+                        <label for="email" class="tw-hidden tw-mb-2 tw-text-sm tw-font-semibold tw-text-gray-900">Last name</label>
+                        <div class="tw-flex tw-absolute tw-inset-y-0 tw-left-0 tw-items-center tw-pl-3 tw-pointer-events-none">
+                            <svg class="tw-w-5 tw-h-5 tw-text-gray-500" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                            </svg>
+                        </div>
+                        <input
+                            class="tw-block tw-p-3 tw-pl-10 tw-w-full tw-text-sm tw-text-gray-900 tw-bg-white tw-rounded-lg tw-border tw-border-gray-300 focus:tw-ring-primary-500 focus:tw-border-primary-500 "
+                            placeholder="Last name" type="text" id="ln" required>
                     </div>
-                    <input
-                        class="tw-block tw-p-3 tw-pl-10 tw-w-full tw-text-sm tw-text-gray-900 tw-bg-white tw-rounded-lg tw-border tw-border-gray-300 focus:tw-ring-primary-500 focus:tw-border-primary-500 "
-                        placeholder="Last name" type="text" id="ln" required>
-                </div>
-                <div class="tw-relative tw-w-full">
-                    <label for="email" class="tw-hidden tw-mb-2 tw-text-sm tw-font-semibold tw-text-gray-900">Email address</label>
-                    <div class="tw-flex tw-absolute tw-inset-y-0 tw-left-0 tw-items-center tw-pl-3 tw-pointer-events-none">
-                        <svg class="tw-w-5 tw-h-5 tw-text-gray-500 dark:tw-text-gray-400" fill="currentColor"
-                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-                        </svg>
+                    <div class="tw-relative tw-w-full">
+                        <label for="email" class="tw-hidden tw-mb-2 tw-text-sm tw-font-semibold tw-text-gray-900">Email address</label>
+                        <div class="tw-flex tw-absolute tw-inset-y-0 tw-left-0 tw-items-center tw-pl-3 tw-pointer-events-none">
+                            <svg class="tw-w-5 tw-h-5 tw-text-gray-500 dark:tw-text-gray-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                            </svg>
+                        </div>
+                        <input
+                            class="tw-block tw-p-3 tw-pl-10 tw-w-full tw-text-sm tw-ext-gray-900 tw-bg-white tw-rounded-lg tw-border tw-border-gray-300 focus:tw-ring-primary-500 focus:tw-order-primary-500 "
+                            placeholder="Email address" type="email" id="email" required>
                     </div>
-                    <input
-                        class="tw-block tw-p-3 tw-pl-10 tw-w-full tw-text-sm tw-ext-gray-900 tw-bg-white tw-rounded-lg tw-border tw-border-gray-300 focus:tw-ring-primary-500 focus:tw-order-primary-500 "
-                        placeholder="Email address" type="email" id="email" required>
+                    <div class="tw-w-full">
+                        <button type="tw-submit"
+                            class="tw-py-3 tw-px-5 tw-w-full tw-text-sm tw-font-semibold tw-text-center tw-text-white tw-rounded-lg tw-border tw-cursor-pointer tw-bg-ig-teal">Join Mailing List</button>
+                    </div>
                 </div>
-                <div class="tw-w-full">
-                    <button type="tw-submit"
-                        class="tw-py-3 tw-px-5 tw-w-full tw-text-sm tw-font-semibold tw-text-center tw-text-white tw-rounded-lg tw-border tw-cursor-pointer tw-bg-ig-teal">Join Mailing List</button>
-                </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
 
 
     <div class="tw-collob-section tw-w-full tw-mt-12 tw-px-10 tw-max-w-full">
-        <h1 class="tw-text-2xl lg:tw-text-3xl tw-font-semibold">Collaborating Institutions</h1>
-        <div class="tw-flex tw-gap-x-5 tw-gap-y-10 md:tw-gap-y-10 tw-align-center tw-items-center tw-justify-content tw-mx-auto tw-flex-wrap tw-py-10 tw-mt-5">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/uiuc.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/columbiauniv.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/inst7.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fiu.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/michiganstate.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/inst9.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/purdue.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/inst10.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/inst8.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/minnesota.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/utahstate.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+        <div class="tw-container">
+            <h1 class="tw-text-2xl lg:tw-text-3xl tw-font-semibold">Collaborating Institutions</h1>
+            <div class="tw-flex tw-gap-x-5 tw-gap-y-10 md:tw-gap-y-10 tw-align-center tw-items-center tw-justify-content tw-mx-auto tw-flex-wrap tw-py-10 tw-mt-5">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/uiuc.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/columbiauniv.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/inst7.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fiu.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/michiganstate.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/inst9.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/purdue.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/inst10.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/inst8.png" alt="" class="tw-mx-auto h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/minnesota.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/utahstate.png" alt="" class="tw-mx-auto tw-h-[10vh] md:tw-h-[80px] lg:tw-h-[12vh]">
+            </div>
         </div>
     </div>
 

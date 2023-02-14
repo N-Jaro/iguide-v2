@@ -636,6 +636,10 @@
   padding-left: 1.25rem !important;
 }
 
+.tw-pl-\[200px\] {
+  padding-left: 200px !important;
+}
+
 .tw-pt-10 {
   padding-top: 2.5rem !important;
 }

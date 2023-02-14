@@ -9,7 +9,7 @@ module.exports = {
   prefix: 'tw-', // set prefix to 'tw-'
   important: true, // set important to true
   content: [
-    "./*.{html,js}",
+    "./*.{html,js,php}",
     "./asset/**/*.{html,js}"
   ],
   theme: {

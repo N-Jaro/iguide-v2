@@ -15,7 +15,8 @@ register_nav_menus(
 );
 
 function iguide_custom_styles() {
-    if (is_page('leadership')) { // Replace 'your-page-slug' with the slug of the page you want to add the CSS to
+    $custom_page_array = array('leadership', 'team-members');
+    if (is_page($custom_page_array) ) { // Replace 'your-page-slug' with the slug of the page you want to add the CSS to
         wp_enqueue_style('iguide-custom-style', get_stylesheet_directory_uri() . '/assets/css/page.css');
     }
 }

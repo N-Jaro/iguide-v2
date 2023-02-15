@@ -1,13 +1,16 @@
 <?php 
+if(is_child_of(get_page_ID_by_slug('platform'))) { // check if it is platform 
+    get_template_part('platform/template');
+} //if not platform 
+else {
     get_header();
 ?>
     <div class="page-title tw-w-full tw-block  tw-relative tw--mt-[200px] tw-pt-[200px]" >
         <div class="tw-container tw-mx-auto tw-px-4 tw-h-min-[200px] tw-pb-[80px] tw-pt-12">
             <div class="tw-border-l-8 tw-pl-3 tw-border-ig-orange tw-text-white tw-font-semibold tw-text-2xl">
-                <h1>I-GUIDE VCO: The Convergence Curriculum for Geospatial Data Science: Open Resources for You and your
-                    Learners</h1>
+                <h1><?php the_title();?></h1>
             </div>
-            <p class="tw-text-light tw-text-sm tw-text-white tw-pt-2 tw-pl-5">Posted 5 days ago</p>
+            <!-- <p class="tw-text-light tw-text-sm tw-text-white tw-pt-2 tw-pl-5"><?php my_post_time_ago(); ?></p> -->
         </div>
         <div class="custom-shape-divider-bottom-1675786129">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
@@ -35,4 +38,5 @@
 
 <?php
     get_footer();
+};
 ?>

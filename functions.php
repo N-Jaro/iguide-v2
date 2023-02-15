@@ -15,13 +15,34 @@ register_nav_menus(
 );
 
 function iguide_custom_styles() {
-    $custom_page_array = array('leadership', 'team-members');
+    $custom_page_array = array('leadership', 'team-members', 'convergence', 'ai', 'coreci', 'education', 'engagement', 'evaluation','iguide-data-and-computation-resources');
     if (is_page($custom_page_array) ) { // Replace 'your-page-slug' with the slug of the page you want to add the CSS to
         wp_enqueue_style('iguide-custom-style', get_stylesheet_directory_uri() . '/assets/css/page.css');
     }
 }
 add_action('wp_enqueue_scripts', 'iguide_custom_styles');
 
+function my_post_time_ago() {
+    $post_time = get_the_time('U');
+    $elapsed_time = human_time_diff($post_time, current_time('U'));
+
+    echo 'Posted ' . $elapsed_time . ' ago';
+}
+
+function is_localhost() {
+		
+    // set the array for testing the local environment
+    $whitelist = array( '127.0.0.1', '::1' );
+    
+    // check if the server is in the array
+    if ( in_array( $_SERVER['REMOTE_ADDR'], $whitelist ) ) {
+        
+        // this is a local environment
+        return true;
+        
+    }
+    
+}
 
 function get_page_ID_by_slug($slug)
 {

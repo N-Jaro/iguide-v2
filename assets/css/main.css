@@ -636,10 +636,6 @@
   padding-left: 1.25rem !important;
 }
 
-.tw-pl-\[200px\] {
-  padding-left: 200px !important;
-}
-
 .tw-pt-10 {
   padding-top: 2.5rem !important;
 }
@@ -813,23 +809,6 @@
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1) !important;
 }
 
-body {
-  font-family: 'Inter',
-        'system-ui',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
-        'Roboto',
-        '"Helvetica Neue"',
-        'Arial',
-        '"Noto Sans"',
-        'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"' !important;
-}
-
 /* =WordPress Core-------------------------------------------------------------- */
 
 .alignnone {
@@ -947,6 +926,79 @@ a img.aligncenter {
 
 /* =WordPress Core-------------------------------------------------------------- */
 
+body {
+  font-family: 'Inter',
+        'system-ui',
+        '-apple-system',
+        'BlinkMacSystemFont',
+        '"Segoe UI"',
+        'Roboto',
+        '"Helvetica Neue"',
+        'Arial',
+        '"Noto Sans"',
+        'sans-serif',
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+        '"Noto Color Emoji"' !important;
+}
+
+.page-content a:not(.btn) {
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(241 129 73 / var(--tw-text-opacity));
+  text-decoration-line: underline;
+}
+
+::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 129 73 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 129 73 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.page-title h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.page-content a:link {
+}
+
+.page-content a:visited {
+}
+
+.page-content a:focus {
+}
+
+.page-content a:hover {
+}
+
+.page-content a:active {
+}
+
+.page-content hr {
+  border-top: 2px dotted #8c8b8b;
+  border-bottom: 2px dotted #fff;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.page-content ul {
+  list-style-position: outside;
+  list-style-type: disc;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1.25rem;
+}
+
 .page-content {
   font-weight: 300;
   --tw-text-opacity: 1;
@@ -962,7 +1014,8 @@ a img.aligncenter {
 .page-content h3,
 .page-content h4,
 .page-content h5 {
-  margin-bottom: 0.875rem;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
   font-weight: 600;
 }
 
@@ -986,6 +1039,35 @@ a img.aligncenter {
   padding-bottom: 0.25rem;
 }
 
+.page-content img,
+.page-content .card img , 
+.page-content iframe {
+  overflow: hidden;
+  border-radius: 0.375rem;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.dataResources ul {
+  list-style-type: none;
+}
+
+.dataResources ul li a.nav-link.active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 129 73 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.curr-card {
+  background-size: cover;
+  background-position: center;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .text-shadow {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.26);
 }
@@ -997,7 +1079,7 @@ a img.aligncenter {
   background-position: top;
 }
 
-.tab-content {
+.tw-tab-content {
   height: 500px;
 }
 
@@ -1133,9 +1215,28 @@ footer {
 .page-title {
   background-image: url('../images/BG.png');
   background-repeat: no-repeat;
-  background-position: center -50px;
+  /* background-position: center -50px; */
   background-size: cover;
+  background-size: 190% 200%;
+  background-position: center top;
 }
+
+@media (min-width: 768px) {
+  .page-title {
+    background-size: cover;
+    background-position: center top;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-title {
+    background-position: center -370px;
+  }
+}
+
+/* #main-menu {
+    @apply tw-hidden md:tw-flex tw-items-center tw-text-sm xl:tw-text-base tw-space-x-4 xl:tw-space-x-8 tw-font-light;
+} */
 
 .hover\:tw-scale-110:hover {
   --tw-scale-x: 1.1 !important;

@@ -2,22 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    font-family: 'Inter',
-        'system-ui',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
-        'Roboto',
-        '"Helvetica Neue"',
-        'Arial',
-        '"Noto Sans"',
-        'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"' !important;
-}
 
 /* =WordPress Core-------------------------------------------------------------- */
 .alignnone {
@@ -134,6 +118,61 @@ a img.aligncenter {
 
 /* =WordPress Core-------------------------------------------------------------- */
 
+body {
+    font-family: 'Inter',
+        'system-ui',
+        '-apple-system',
+        'BlinkMacSystemFont',
+        '"Segoe UI"',
+        'Roboto',
+        '"Helvetica Neue"',
+        'Arial',
+        '"Noto Sans"',
+        'sans-serif',
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+        '"Noto Color Emoji"' !important;
+}
+
+.page-content a:not(.btn) {
+    @apply tw-text-ig-orange tw-underline tw-font-normal;
+}
+
+::selection
+{
+    @apply tw-bg-ig-orange tw-text-white;
+}
+
+.page-title h1{ 
+    @apply tw-text-3xl;
+}
+
+.page-content a:link {
+}
+
+.page-content a:visited {
+}
+
+.page-content a:focus {
+}
+
+.page-content a:hover {
+}
+
+.page-content a:active {
+}
+
+.page-content hr {
+    border-top: 2px dotted #8c8b8b;
+	border-bottom: 2px dotted #fff;
+    @apply tw-my-3;
+}
+
+.page-content ul {
+    @apply tw-pl-5 tw-list-disc tw-list-outside tw-py-1;
+}
+
 .page-content {
     @apply tw-font-light tw-text-black;
 }
@@ -147,7 +186,7 @@ a img.aligncenter {
 .page-content h3,
 .page-content h4,
 .page-content h5 {
-    @apply tw-font-semibold tw-mb-3.5;
+    @apply tw-font-semibold tw-my-2.5;
 }
 
 .page-content h1 {
@@ -166,6 +205,22 @@ a img.aligncenter {
     @apply tw-py-1;
 }
 
+.page-content img,
+.page-content .card img , 
+.page-content iframe {
+    @apply tw-rounded-md tw-shadow-lg tw-overflow-hidden;
+}
+.dataResources ul {
+    @apply tw-list-none
+}
+.dataResources ul li a.nav-link.active {
+    @apply tw-text-white tw-bg-ig-orange;
+}
+
+.curr-card {
+    @apply tw-bg-center tw-bg-cover tw-shadow-lg;
+}
+
 .text-shadow {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.26);
 }
@@ -177,7 +232,7 @@ a img.aligncenter {
     background-position: top;
 }
 
-.tab-content {
+.tw-tab-content {
     @apply tw-h-[500px]
 }
 
@@ -301,6 +356,14 @@ footer {
 .page-title {
     background-image: url('../images/BG.png');
     background-repeat: no-repeat;
-    background-position: center -50px;
+    /* background-position: center -50px; */
     background-size: cover;
+    background-size: 190% 200%;
+    background-position: center top;
+
+    @apply md:tw-bg-[center_top] md:tw-bg-cover lg:tw-bg-[center_-370px] ;
 }
+
+/* #main-menu {
+    @apply tw-hidden md:tw-flex tw-items-center tw-text-sm xl:tw-text-base tw-space-x-4 xl:tw-space-x-8 tw-font-light;
+} */

@@ -1,0 +1,114 @@
+
+.left-panel{
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.right-panel{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.copyright {
+    position: absolute;
+    bottom: 0;
+}
+.header-wrap{
+    position: absolute;
+    bottom: 15%;
+}
+h1.header {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+}
+.header-wrap p {
+    margin-left:10px;
+    font-size:20px;
+}
+.header::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 28px;
+    height: calc(100% - 28px);
+    border-left: 3px solid #FFFFFF;
+}
+.hero-wrap {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+.hero-gredient {
+    background: rgb(34,193,195);
+    background: -moz-linear-gradient(11deg, rgba(34,193,195,1) 0%, rgba(255,185,35,1) 100%);
+    background: -webkit-linear-gradient(11deg, rgba(34,193,195,1) 0%, rgba(255,185,35,1) 100%);
+    background: linear-gradient(11deg, rgba(34,193,195,1) 0%, rgba(255,185,35,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#ffb923",GradientType=1); 
+}
+
+footer {
+    position: relative;
+    background-color: #E5E5E5;
+}
+
+/* footer::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    z-index: -1;
+    height: 150px;
+    background-image: url(../img/Path-3540.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+} */
+
+footer .address {
+    font-size: .9rem;
+}
+
+@media (max-width: 991.98px) {
+    footer::before {
+        content: "";
+        width: 100%;
+        position: absolute;
+        top: -110px;
+        z-index: 0;
+    }
+    footer *,
+    .text-right.address {
+        text-align: center !important;
+    }
+
+
+}
+
+.card-img-top {
+    max-height: 250px;
+}
+.card-image {
+    height: 250px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.card-body p {
+    padding-bottom: 40px;
+}
+
+.card-body .btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}

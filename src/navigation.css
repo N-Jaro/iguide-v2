@@ -125,7 +125,8 @@
 .nav .menu-item-has-children ul.sub-menu ul.sub-menu {
     left: unset;
     padding-top: 0.75rem;
-    right: calc(100% + 0.1rem);
+    /* right: calc(100% + 0.1rem); */
+    right:100%;
     top: -0.7rem;
     /* box-shadow: unset; */
     border-bottom-width: 1px;

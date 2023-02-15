@@ -18,7 +18,7 @@
                     </p>
                 </div>
                 <div class="tw-w-screen tw-mt-5 md:tw-mt-7 md:tw-w-8/12 lg:tw-w-2/3">
-                    <div id="tabs-content" class="md:tw-w-[150%] lg:tw-w-[110%]">
+                    <div id="tw-tabs-content" class="md:tw-w-[150%] lg:tw-w-[110%]">
                         <div id="map-slide" class="hero-tab-content tw-p-0 lg:tw-p-2 z-20">
                             <div class="md:tw-grid md:tw-grid-cols-7 md:tw-gap-5 lg:tw-gap-7">
                                 <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-span-2 tw-row-span-2 tw-ease-in tw-duration-300 tw-h-fit tw-overflow-hidden tw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md hover:tw-scale-110 hover:tw-drop-shadow-2xl animate__delay-1s">

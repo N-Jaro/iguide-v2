@@ -103,4 +103,25 @@ $(function () {
         return false;
     });
 
+    let sreenMd = window.matchMedia('( min-width: 768px )');
+    var screenSize = $(window).width();
+
+    // Register event listener
+    sreenMd.addEventListener("change", (e) => {
+        // Check if the media query is true
+        console.log(e);
+        if (e.matches) {
+            $("#twt-block").css('height', ($('.news-section').outerHeight()-50)+"px");
+        } else {
+            $("#twt-block").css('height', '400px');
+        }
+    });
+
+    if(screenSize > 768 ) {
+        $("#twt-block").css('height', ($('.news-section').outerHeight()-50)+"px");
+    } else {
+        $("#twt-block").css('height', '400px');
+    }
+
+    
 });

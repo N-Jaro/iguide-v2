@@ -39,8 +39,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/navigation.js"></script>
+   
+    </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
     <script>
-    $(function () {  
+        $('#menu .nav-link').click(function (e) {
+            e.preventDefault();
+            $("#menu .nav-link").removeClass('active');
+        });
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <!-- Begin Constant Contact Active Forms -->
+    <script> var _ctct_m = "fc183cbdcaf3982ff12d90bb605ba0ab"; </script>
+    <script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+    <!-- End Constant Contact Active Forms -->
+
+    <script>
+    $(document).ready(function() { 
         $('#main-menu').slicknav({
             label: '',
             prependTo: 'body',
@@ -79,15 +94,6 @@
             }
         });
     });
-    </script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
-    <script>
-        $('#menu .nav-link').click(function (e) {
-            e.preventDefault();
-            $("#menu .nav-link").removeClass('active');
-        });
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
     <?php wp_footer(); ?>
 </body>
 

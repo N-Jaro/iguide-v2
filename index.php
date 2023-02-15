@@ -157,19 +157,11 @@
             </div>
             <div class="tw-w-full">
                 <div id="proj1" class="project-tab-content">
-                    <div class="tw-flex tw-flex-col md:tw-flex-row tw-gap-10 tw-p-0 md:tw-p-4">
+                    <div class="tw-flex tw-flex-col md:tw-flex-row tw-gap-10 tw-p-0 md:tw-py-4">
                         <div class="projLeft md:tw-basis-7/12 animate__delay-1s">
                             <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">Vulnerability Analysis for Aging Dam
-                                Infrastructure 1</h1>
-                            <p class="tw-text-sm lg:tw-text-base tw-font-light tw-text-black dark:tw-text-gray-400 ">This study aims to examine the impact
-                                of
-                                potential dam failures on socioeconomically disadvantaged populations in the United States. The
-                                researchers analyze 427 federal dams in the contiguous US using a combination of data retrieval,
-                                spatial operations, and statistical analysis. Their findings will show which populations are
-                                most vulnerable to the effects of dam failures and which states have the highest number of dams
-                                that could impact these populations. The study also highlights the challenges faced during the
-                                data processing stage, including bottlenecks and roadblocks. The goal is to better understand
-                                the potential risks to communities and inform decision-making around dam safety.</p>
+                                Infrastructure</h1>
+                            <p class="tw-text-sm lg:tw-text-base tw-font-light tw-text-black dark:tw-text-gray-400 ">U.S. dams are threatened by age-induced fragility and increased hydrologic stresses due to climate change. In many cases, communities and infrastructure below the dams have also increased dramatically over time, increasing the exposure to dam failure. Given that there are over 90,000 such dams in the United States, a traditional approach to dam risk assessment is challenging to implement. Our I-GUIDE project is taking an integrated approach to the application of “big data” sources so that a national or portfolio risk assessment of these assets can be attempted for the first time. This includes a spatially specific analysis of the climate changes of concern, of what is likely to be impacted if the dams fail, of the cascading effects of those failures on the national economy and other critical infrastructure elements, and the potential resilience of the infrastructure systems given the governance at different levels. The application of machine learning tools, statistical inference, natural language processing and the geo-hypercube together with traditional physics based and economics models are illustrated.</p>
                         </div>
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
                             <div class="tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
@@ -181,21 +173,12 @@
                 <div id="proj2" class="project-tab-content">
                     <div class="tw-flex tw-flex-col md:tw-flex-row tw-gap-10 tw-p-0 md:tw-p-4">
                         <div class="projLeft md:tw-basis-7/12 animate__delay-1s">
-                            <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">Vulnerability Analysis for Aging Dam
-                                Infrastructure 1</h1>
-                            <p class="tw-text-sm lg:tw-text-base tw-font-light tw-text-black dark:tw-text-gray-400 ">This study aims to examine the impact
-                                of
-                                potential dam failures on socioeconomically disadvantaged populations in the United States. The
-                                researchers analyze 427 federal dams in the contiguous US using a combination of data retrieval,
-                                spatial operations, and statistical analysis. Their findings will show which populations are
-                                most vulnerable to the effects of dam failures and which states have the highest number of dams
-                                that could impact these populations. The study also highlights the challenges faced during the
-                                data processing stage, including bottlenecks and roadblocks. The goal is to better understand
-                                the potential risks to communities and inform decision-making around dam safety.</p>
+                            <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">Geospatial Data Science Convergence Curriculum</h1>
+                            <p class="tw-text-sm lg:tw-text-base tw-font-light tw-text-black dark:tw-text-gray-400 ">The Convergence Curriculum for Geospatial Data Science is an integrative framework to prepare next-generation students and current-generation scholars and professionals to tackle complex, convergent problems. This multi-tiered curriculum starts with 5 Foundational Knowledge Threads to establish a common basis for individuals coming from diverse backgrounds. Individual learners begin to integrate skills, knowledge, methods, and technologies as they move up through Knowledge Connections and Knowledge Frames. The pinnacle of the curriculum is Knowledge Convergence, which combines previous competencies with existing domain knowledge. Each component in the curriculum will be available at varying depths: 3 sentences, 3 slides, a 3-hour module, or a 3-week unit. This configuration allows individuals to adapt their experiences to match their learning pathways and needs.</p>
                         </div>
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
                             <div class="tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dam.png" alt="">
+                                <img src="https://iguide.illinois.edu/wp-content/uploads/2022/09/Picture1.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -203,21 +186,12 @@
                 <div id="proj3" class="project-tab-content">
                     <div class="tw-flex tw-flex-col md:tw-flex-row tw-gap-10 tw-p-0 md:tw-p-4">
                         <div class="projLeft md:tw-basis-7/12 animate__delay-1s">
-                            <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">Vulnerability Analysis for Aging Dam
-                                Infrastructure 1</h1>
-                            <p class="tw-text-sm lg:tw-text-base tw-font-light tw-text-black dark:tw-text-gray-400 ">This study aims to examine the impact
-                                of
-                                potential dam failures on socioeconomically disadvantaged populations in the United States. The
-                                researchers analyze 427 federal dams in the contiguous US using a combination of data retrieval,
-                                spatial operations, and statistical analysis. Their findings will show which populations are
-                                most vulnerable to the effects of dam failures and which states have the highest number of dams
-                                that could impact these populations. The study also highlights the challenges faced during the
-                                data processing stage, including bottlenecks and roadblocks. The goal is to better understand
-                                the potential risks to communities and inform decision-making around dam safety.</p>
+                            <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">Hypercube</h1>
+                            <p class="tw-text-sm lg:tw-text-base tw-font-light tw-text-black dark:tw-text-gray-400 ">The lack of support for computational reproducibility and data ethics is a significant challenge for knowledge infrastructure, including data privacy, consent, and transparency. I-GUIDE, a research organization, aims to support the decision-making process for sharing data and data-driven research outcomes. Geoethics is an important area for I-GUIDE, and it is integrated into their Convergence Curriculum for Geospatial Data Science. The curriculum provides structural guidance for computational reproducibility and data ethics. The article suggests several resources, including GIS Ethics Case Studies, Data and Society, and AI Now Institute, to support researchers in addressing the social implications of AI and data-centric technologies.</p>
                         </div>
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
                             <div class="tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dam.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hypercube.jpeg" alt="">
                             </div>
                         </div>
                     </div>
@@ -225,21 +199,12 @@
                 <div id="proj4" class="project-tab-content">
                     <div class="tw-flex tw-flex-col md:tw-flex-row tw-gap-10 tw-p-0 md:tw-p-4">
                         <div class="projLeft md:tw-basis-7/12 animate__delay-1s">
-                            <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">Vulnerability Analysis for Aging Dam
-                                Infrastructure 1</h1>
-                            <p class="tw-text-sm lg:tw-text-base tw-font-light tw-text-black dark:tw-text-gray-400 ">This study aims to examine the impact
-                                of
-                                potential dam failures on socioeconomically disadvantaged populations in the United States. The
-                                researchers analyze 427 federal dams in the contiguous US using a combination of data retrieval,
-                                spatial operations, and statistical analysis. Their findings will show which populations are
-                                most vulnerable to the effects of dam failures and which states have the highest number of dams
-                                that could impact these populations. The study also highlights the challenges faced during the
-                                data processing stage, including bottlenecks and roadblocks. The goal is to better understand
-                                the potential risks to communities and inform decision-making around dam safety.</p>
+                            <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">Geoethics</h1>
+                            <p class="tw-text-sm lg:tw-text-base tw-font-light tw-text-black dark:tw-text-gray-400 ">The lack of support for computational reproducibility and data ethics is a significant challenge for knowledge infrastructure, including data privacy, consent, and transparency. I-GUIDE, a research organization, aims to support the decision-making process for sharing data and data-driven research outcomes. Geoethics is an important area for I-GUIDE, and it is integrated into their Convergence Curriculum for Geospatial Data Science. The curriculum provides structural guidance for computational reproducibility and data ethics. The article suggests several resources, including GIS Ethics Case Studies, Data and Society, and AI Now Institute, to support researchers in addressing the social implications of AI and data-centric technologies.</p>
                         </div>
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
                             <div class="tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dam.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/geoethics.jpeg" alt="">
                             </div>
                         </div>
                     </div>
@@ -254,69 +219,47 @@
 
     <div class="news-section tw-container tw-w-full tw-px-10 tw-my-10">
         <h1 class="tw-text-2xl lg:tw-text-3xl tw-font-semibold">NEWS AND UPDATES</h1>
-        <div class="news-grid tw-grid md:tw-grid-cols-3 lg:tw-grid-cols-4 md:tw-grid-rows-2 md:tw-grid-flow-row tw-gap-3 md:tw-gap-5 lg:tw-gap-7  tw-mt-5">
-            <div class="tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
-                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="Sunset in the mountains">
-                <div class="tw-px-2 md:tw-px-6 tw-py-4">
-                    <div class="tw-font-semibold tw-text-base lg:tw-text-xl tw-mb-2">December 2022 Newsletter 1</div>
-                    <p class="tw-text-gray-400 tw-font-light tw-italic tw-text-xs lg:tw-text-base">
-                        Posted 4 Days Ago
+        <div class="news-grid tw-grid md:tw-grid-cols-3 lg:tw-grid-cols-4 md:tw-grid-rows-[max-content_min-content] md:tw-grid-flow-row tw-gap-3 md:tw-gap-5 lg:tw-gap-7  tw-mt-5">
+            <?php
+                $news_args = array(
+                    'posts_per_page' => 6,
+                    'post_type' => 'news_events',
+                );
+                $news = new WP_Query($news_args);
+                $news_count = 1;
+            ?>
+                <?php if ($news->have_posts()): ?>
+                <?php while ($news->have_posts()): $news->the_post();
+                    $news_or_event = get_the_terms( get_the_ID(), 'news_cat' );
+                    $description = get_field('short_description');
+                    $attachment_id = get_post_meta(get_the_ID(), 'image', true);
+                    $attachment_src = wp_get_attachment_image_src($attachment_id, 'full');
+                    $default_img = get_template_directory_uri()."/img/area_6.png";
+            ?>
+            <div class="<?php if($news_count>4) echo 'tw-hidden'; ?> tw-border lg:tw-block tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
+                <img class="tw-object-cover tw-h-[200px] tw-w-full"
+                                            src="<?php echo ($attachment_src)? $attachment_src[0]: $default_img; ?>"
+                                            alt="<?php the_title();?>">
+                <div class="tw-px-1 lg:tw-px-2 md:tw-px-6 tw-py-4">
+                    <div class="tw-font-semibold tw-text-sm md:tw-text-sm lg:tw-text-base xl:tw-text-xl tw-mb-2"><?php the_title();?></div>
+                    <p class="tw-text-gray-500 tw-font-light tw-italic tw-text-xs lg:tw-text-sm ">
+                        <?php my_post_time_ago(); ?>
                     </p>
                 </div>
             </div>
-            <div class="tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
-                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="Sunset in the mountains">
-                <div class="tw-px-2 md:tw-px-6 tw-py-4">
-                    <div class="tw-font-semibold tw-text-base lg:tw-text-xl tw-mb-2">December 2022 Newsletter 1</div>
-                    <p class="tw-text-gray-400 tw-font-light tw-italic tw-text-xs lg:tw-text-base">
-                        Posted 4 Days Ago
-                    </p>
-                </div>
-            </div>
-            <div class="tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
-                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="Sunset in the mountains">
-                <div class="tw-px-2 md:tw-px-6 tw-py-4">
-                    <div class="tw-font-semibold tw-text-base lg:tw-text-xl tw-mb-2">December 2022 Newsletter 1</div>
-                    <p class="tw-text-gray-400 tw-font-light tw-italic tw-text-xs lg:tw-text-base">
-                        Posted 4 Days Ago
-                    </p>
-                </div>
-            </div>
-            <div class="tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
-                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="Sunset in the mountains">
-                <div class="tw-px-2 md:tw-px-6 tw-py-4">
-                    <div class="tw-font-semibold tw-text-base lg:tw-text-xl tw-mb-2">December 2022 Newsletter 1</div>
-                    <p class="tw-text-gray-400 tw-font-light tw-italic tw-text-xs lg:tw-text-base">
-                        Posted 4 Days Ago
-                    </p>
-                </div>
-            </div>
-            <div class="tw-hidden lg:tw-block tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
-                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="Sunset in the mountains">
-                <div class="tw-px-2 md:tw-px-6 tw-py-4">
-                    <div class="tw-font-semibold tw-text-base lg:tw-text-xl tw-mb-2">December 2022 Newsletter 5</div>
-                    <p class="tw-text-gray-400 tw-font-light tw-italic tw-text-xs lg:tw-text-base">
-                        Posted 4 Days Ago
-                    </p>
-                </div>
-            </div>
-            <div class="tw-hidden lg:tw-block tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
-                <img class="tw-object-cover tw-h-[200px] tw-w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="Sunset in the mountains">
-                <div class="tw-px-2 md:tw-px-6 tw-py-4">
-                    <div class="tw-font-semibold tw-text-base lg:tw-text-xl tw-mb-2">December 2022 Newsletter 5</div>
-                    <p class="tw-text-gray-400 tw-font-light tw-italic tw-text-xs lg:tw-text-base">
-                        Posted 4 Days Ago
-                    </p>
-                </div>
-            </div>
-            <div id="tw-block" class="tw-max-w-sm md:tw-row-start-1 md:tw-row-span-2 tw-max-h-[400px] md:tw-max-h-[600px] tw-rounded-xl tw-shadow-lg tw-overflow-hidden md:tw-h-full">
-                <a class="twitter-timeline" data-height="800" href="https://twitter.com/NSFiGUIDE?ref_src=twsrc%5Etfw">Tweets by NSFiGUIDE</a> 
+            
+            <?php $news_count++;
+            endwhile;?>
+            <?php endif;?>
+            
+            <div id="twt-block" class="tw-border tw-max-w-sm md:tw-row-start-1 md:tw-row-span-2 tw-rounded-xl justify-self-auto tw-shadow-lg tw-overflow-hidden">
+                <a class="twitter-timeline tw-h-full" data-height="1000" href="https://twitter.com/NSFiGUIDE?ref_src=twsrc%5Etfw">Tweets by NSFiGUIDE</a> 
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
             </div>
         </div>
     </div>
 
-    <div class="maillist-section tw-bg-gray-100 tw-w-full tw-p-10">
+    <div class="maillist-section tw-bg-gray-100 tw-w-full tw-pt-10 tw-px-10 tw-pb-0">
         <div class="tw-container">
             <h1 class="tw-text-2xl lg:tw-text-3xl tw-font-semibold">Join I-GUIDE's Mailing List</h1>
             <p class="tw-font-light tw-text-sm lg:tw-text-base tw-text-black tw-mt-5">Join I-GUIDE's mailing list for updates on geospatial
@@ -324,7 +267,7 @@
                 innovation. Stay informed on community priorities, cutting-edge data capabilities, and exciting
                 advancements in various disciplines. Don't miss out on opportunities to participate in shaping the
                 future of geospatial data-intensive sciences. Sign up now!</p>
-            <form action="#" class=" tw-mt-5">
+            <!-- <form action="#" class=" tw-mt-5">
                 <div class="tw-flex tw-flex-col md:tw-flex-row tw-gap-5 tw-items-center tw-mx-auto tw-mb-3 tw-space-y-4 sm:tw-flex sm:tw-space-y-0">
                     <div class="tw-relative tw-w-full">
                         <label for="email" class="tw-hidden tw-mb-2 tw-text-sm tw-font-semibold tw-text-gray-900">First name</label>
@@ -370,7 +313,10 @@
                             class="tw-py-3 tw-px-5 tw-w-full tw-text-sm tw-font-semibold tw-text-center tw-text-white tw-rounded-lg tw-border tw-cursor-pointer tw-bg-ig-teal">Join Mailing List</button>
                     </div>
                 </div>
-            </form>
+            </form> -->
+            <!-- Begin Constant Contact Inline Form Code -->
+            <div class="ctct-inline-form" data-form-id="44d7424d-0385-4ea9-8145-50702484d1f0"></div>
+            <!-- End Constant Contact Inline Form Code -->
         </div>
     </div>
 

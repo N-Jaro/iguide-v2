@@ -344,7 +344,7 @@ body {
 }
 
 .twitter-timeline {
-    @apply tw-rounded-2xl tw-shadow-lg;
+    /* @apply tw-rounded-2xl tw-shadow-lg; */
 }
 
 footer {
@@ -364,6 +364,41 @@ footer {
     @apply md:tw-bg-[center_top] md:tw-bg-cover lg:tw-bg-[center_-370px] ;
 }
 
+
+/*-------------------------------Sing up form ---------*/
+
+#ctct_form_0 {
+    @apply md:tw-grid tw-grid-cols-4 tw-gap-5; 
+}
+.ctct-form-embed.form_0 .ctct-form-defaults {
+    @apply !tw-bg-transparent !tw-px-0 !tw-pt-5;
+}
+
+#ctct_form_0  label {
+    @apply tw-font-semibold tw-text-sm lg:tw-text-base;
+}
+
+div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
+    @apply !tw-p-2 !tw-h-auto tw-text-sm lg:tw-text-base;
+}
+.ctct-form-embed.form_0 .ctct-form-custom .ctct-form-button {    
+    @apply tw-self-center !tw-bg-ig-teal !tw-border-0;
+}
+
+#success_message_0 {
+    @apply tw-text-center tw-bg-ig-orange !tw-text-black tw-p-5;
+}
+.ctct-form-header {
+    @apply !tw-text-black;
+}
+
+#ctct_form_0 .ctct-form-header,
+#ctct_form_0 .ctct-form-text,
+#gdpr_text,
+.ctct-form-footer 
+{
+    @apply !tw-hidden;
+}
 /* #main-menu {
     @apply tw-hidden md:tw-flex tw-items-center tw-text-sm xl:tw-text-base tw-space-x-4 xl:tw-space-x-8 tw-font-light;
 } */

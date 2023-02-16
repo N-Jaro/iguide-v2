@@ -20,72 +20,101 @@
                 <div class="tw-w-screen tw-mt-5 md:tw-mt-7 md:tw-w-8/12 lg:tw-w-2/3">
                     <div id="tw-tabs-content" class="md:tw-w-[150%] lg:tw-w-[110%]">
                         <div id="map-slide" class="hero-tab-content tw-p-0 lg:tw-p-2 z-20">
-                            <div class="md:tw-grid md:tw-grid-cols-7 md:tw-gap-5 lg:tw-gap-7">
-                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-span-2 tw-row-span-2 tw-self-start  tw-overflow-hidden tw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md animate__delay-1s">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/BAthymetirc_model_development.jpg" alt="">
-                                    <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">Bathymetric Model Development</h1>
+                            <div class="md:tw-grid md:tw-grid-cols-7 md:tw-gap-5 lg:tw-gap-7 tw-grid-rows-[min-content_min-content]">
+                                <div class=" animate tw-col-span-2 tw-row-span-2 tw-self-start animate__delay-3s">
+                                    <div class="tab-card tw-h-[170px] md:tw-h-auto tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-nonetw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md  tw-overflow-hidden">
+                                        <a class="stretched-link" href="#"></a>
+                                        <img class="object-cover tw-h-full tw-w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/BAthymetirc_model_development.jpg" alt="">
+                                        <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">Bathymetric Model Development</h1>
+                                    </div>
                                 </div>
-                                <div class="tab-card tw-h-[300px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-self-start tw-relative tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-2s">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/average_annual_elevation_of_great_salt_lake.jpg" alt="">
-                                    <h1 class="tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">Average Annual Elevation of Great Salt Lake</h1>
+                                <div class=" animate tw-col-start-3 tw-col-end-6 tw-self-start tw-relative animate__delay-2s">
+                                    <div class="tab-card tw-h-[170px] lg:tw-h-[200px] xl:tw-h-[250px] tw-mx-10 tw-mb-5 md:tw-m-0 tw-drop-shadow-md tw-rounded-lg tw-overflow-hidden ">
+                                        <a class="stretched-link" href="#"></a>
+                                        <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/average_annual_elevation_of_great_salt_lake.jpg" alt="">
+                                        <h1 class="tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">Average Annual Elevation of Great Salt Lake</h1>
+                                    </div>
                                 </div>
-                                <div class="tab-card tw-h-[300px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6  tw-self-start  tw-relative tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-3s">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/high_hazard_dams.png" alt="">
-                                    <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">I-GUIDE All-Hands Meeting
-                                        (Virtual) </h1>
+                                <div class=" animate tw-col-start-3 tw-col-end-6 tw-self-start tw-relative animate__delay-3s">
+                                    <div class="tab-card tw-h-[170px] lg:tw-h-[200px] xl:tw-h-[250px] tw-mx-10 tw-mb-5 md:tw-m-0 animate tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
+                                        <a class="stretched-link" href="#"></a>
+                                        <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/high_hazard_dams.png" alt="">
+                                        <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">I-GUIDE All-Hands Meeting
+                                            (Virtual) </h1>
+                                    </div>
                                 </div>
-                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 tw-hidden md:tw-flex md:tw-m-0 md:tw-max-h-none animate tw-col-start-6 tw-col-span-2 tw-self-start  tw-row-start-1 tw-row-span-2 tw-relative md:tw-mt-20 tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-4s">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
-                                    <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
-                                    </h1>
+                                <div class="tw-hidden animate tw-col-start-6 tw-col-span-2 tw-self-start tw-row-start-1 tw-row-span-2 tw-relative md:tw-mt-20 animate__delay-4s">
+                                    <div class="tab-card tw-mx-10 tw-mb-5 tw-hidden md:tw-flex md:tw-m-0 md:tw-max-h-nonetw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
+                                        <a class="stretched-link" href="#"></a>
+                                        <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
+                                        <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
+                                        </h1>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div id="connect-slide" class="hero-tab-content tw-p-0 lg:tw-p-2 z-20">
                             <div class="md:tw-grid md:tw-grid-cols-7 md:tw-gap-5 lg:tw-gap-7">
-                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-span-2 tw-row-span-2 tw-ease-in tw-duration-300 tw-h-fit tw-overflow-hidden tw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md animate__delay-1s">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/AAG.png" alt="">
-                                    <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Symposiums @ AAG 2023
-                                    </h1>
+                                <div class=" animate tw-col-span-2 tw-row-span-2 tw-self-start animate__delay-1s">
+                                    <div class="tab-card tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-nonetw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md  tw-overflow-hidden">
+                                        <a class="stretched-link" href="https://iguide.illinois.edu/aag-2023-symposium-on-harnessing-the-geospatial-data-revolution-for-sustainability-solutions/ "></a>
+                                        <img class="object-cover tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/AAG.png" alt="">
+                                        <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">AAG 2023 Symposium</h1>
+                                    </div>
                                 </div>
-                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-2s">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top2.png" alt="">
-                                    <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">The first in-person
-                                        I-GUIDE AHM!</h1>
+                                <div class=" animate tw-col-start-3 tw-col-end-6 tw-self-start tw-relative animate__delay-2s">
+                                    <div class="tab-card tw-h-[150px] lg:tw-h-[200px] xl:tw-h-[250px] tw-mx-10 tw-mb-5 md:tw-m-0 tw-drop-shadow-md  tw-rounded-lg tw-overflow-hidden">
+                                        <a class="stretched-link" href="https://iguide.illinois.edu/summer-school-2023/ "></a>
+                                        <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/summer_school.jpeg" alt="">
+                                        <h1 class="tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">Summer School 2023</h1>
+                                    </div>
                                 </div>
-                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-3s">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top3.png" alt="">
-                                    <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">I-GUIDE All-Hands Meeting
-                                        (Virtual) </h1>
+                                <div class=" animate tw-col-start-3 tw-col-end-6 tw-self-start tw-relative animate__delay-3s">
+                                    <div class="tab-card tw-h-[150px] lg:tw-h-[200px] xl:tw-h-[250px] tw-mx-10 tw-mb-5 md:tw-m-0 animate tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
+                                        <a class="stretched-link" href="https://iguide.illinois.edu/i-guide-webinar-series/ "></a>
+                                        <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/webinar.png" alt="">
+                                        <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">I-GUIDE Webinars Series</h1>
+                                    </div>
                                 </div>
-                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 tw-hidden md:tw-flex md:tw-m-0 md:tw-max-h-none animate tw-col-start-6 tw-col-span-2 tw-row-start-1 tw-ease-in tw-duration-300 tw-row-span-2 tw-h-fit tw-relative md:tw-mt-20 tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-4s">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webinar.png" alt="">
-                                    <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
-                                    </h1>
+                                <div class="tw-hidden animate tw-col-start-6 tw-col-span-2 tw-self-start tw-row-start-1 tw-row-span-2 tw-relative md:tw-mt-20 animate__delay-4s">
+                                    <div class="tab-card tw-mx-10 tw-mb-5 tw-hidden md:tw-flex md:tw-m-0 md:tw-max-h-none tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
+                                        <a class="stretched-link" href="#"></a>
+                                        <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
+                                        <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
+                                        </h1>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div id="discover-slide" class="hero-tab-content tw-p-0 lg:tw-p-2 z-20">
                             <div class="md:tw-grid md:tw-grid-cols-7 md:tw-gap-5 lg:tw-gap-7">
-                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-span-2 tw-row-span-2 tw-ease-in tw-duration-300 tw-h-fit tw-overflow-hidden tw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md animate__delay-1s">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
-                                    <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
-                                    </h1>
+                                <div class=" animate tw-col-span-2 tw-row-span-2 tw-self-start animate__delay-1s">
+                                    <div class="tab-card tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-nonetw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md  tw-overflow-hidden ">
+                                        <a class="stretched-link" href="https://iguide.illinois.edu/convergence-curriculum-for-geospatial-data-science/"></a>
+                                        <img class="object-cover tw-h-full" src="https://iguide.illinois.edu/wp-content/uploads/2022/09/Picture1.png" alt="">
+                                        <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">Convergence Curriculum</h1>
+                                    </div>
                                 </div>
-                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-2s">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top2.png" alt="">
-                                    <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">The first in-person
-                                        I-GUIDE AHM!</h1>
+                                <div class=" animate tw-col-start-3 tw-col-end-6 tw-self-start tw-relative animate__delay-2s ">
+                                    <div class="tab-card tw-h-[150px] lg:tw-h-[200px] xl:tw-h-[250px] tw-mx-10 tw-mb-5 md:tw-m-0 tw-drop-shadow-md tw-rounded-lg tw-overflow-hidden ">
+                                        <a class="stretched-link" href="#"></a>
+                                        <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/hypercube.png" alt="">
+                                        <h1 class="tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">Hypercube</h1>
+                                    </div>
                                 </div>
-                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-3s">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top3.png" alt="">
-                                    <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">I-GUIDE All-Hands Meeting
-                                        (Virtual) </h1>
+                                <div class=" animate tw-col-start-3 tw-col-end-6 tw-self-start tw-relative animate__delay-3s">
+                                    <div class="tab-card tw-h-[150px] lg:tw-h-[200px] xl:tw-h-[250px] tw-mx-10 tw-mb-5 md:tw-m-0 animate tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md ">
+                                        <a class="stretched-link" href="#"></a>
+                                        <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/high_hazard_dams.png" alt="">
+                                        <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">Aging Dams</h1>
+                                    </div>
                                 </div>
-                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 tw-hidden md:tw-flex md:tw-m-0 md:tw-max-h-none animate tw-col-start-6 tw-col-span-2 tw-row-start-1 tw-ease-in tw-duration-300 tw-row-span-2 tw-h-fit tw-relative md:tw-mt-20 tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-4s">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
-                                    <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
-                                    </h1>
+                                <div class="animate tw-col-start-6 tw-col-span-2 tw-self-start  tw-row-start-1 tw-row-span-2 tw-relative md:tw-mt-20 animate__delay-5s">
+                                    <div class="tab-card tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-nonetw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md  tw-overflow-hidden">
+                                        <a class="stretched-link" href="https://iguide.illinois.edu/geoethics/ "></a>
+                                        <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/geoethics.jpg" alt="">
+                                        <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">GeoEthics</h1>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -138,18 +167,17 @@
         <div class="tw-min-h-[450px]">
             <div class="tw-mb-4">
                 <ul id="project-tabs-nav" class="tw-flex tw-flex-wrap tw--mb-px tw-text-sm lg:tw-text-base tw-font-semibold tw-text-center">
-                    <li class="tw-flex-1 tw-text-center tw-border-b-2 tw-p-5 tw-cursor-pointer tw-grid tw-content-center" link="#proj1">Aging Dam</li>
-                    <li class="tw-flex-1 md:tw-flex-2 tw-text-center tw-border-b-2 tw-p-5 tw-cursor-pointer tw-grid tw-content-center" link="#proj2">Geospatial Data Science Convergence Curriculum</li>
-                    <li class="tw-flex-1 tw-text-center tw-border-b-2 tw-p-5 tw-cursor-pointer tw-grid tw-content-center" link="#proj3">Hypercube</li>
-                    <li class="tw-flex-1 tw-text-center tw-border-b-2 tw-p-5 tw-cursor-pointer tw-grid tw-content-center" link="#proj4">Geoethics</li>
+                    <li class="tw-flex-1 tw-text-center tw-border-b-2 tw-p-5 tw-cursor-pointer tw-grid tw-content-center" link="#proj1">Aging Dam </li>
+                    <li class="tw-flex-1 md:tw-flex-2 tw-text-center tw-border-b-2 tw-p-5 tw-cursor-pointer tw-grid tw-content-center" link="#proj2">Convergence Curriculum</li>
+                    <li class="tw-flex-1 tw-text-center tw-border-b-2 tw-p-5 tw-cursor-pointer tw-grid tw-content-center" link="#proj3">HyperCube</li>
+                    <li class="tw-flex-1 tw-text-center tw-border-b-2 tw-p-5 tw-cursor-pointer tw-grid tw-content-center" link="#proj4">GeoEthics</li>
                 </ul>
             </div>
             <div class="tw-w-full">
                 <div id="proj1" class="project-tab-content">
                     <div class="tw-flex tw-flex-col md:tw-flex-row tw-gap-10 tw-p-0 md:tw-py-4">
                         <div class="projLeft md:tw-basis-7/12 animate__delay-1s">
-                            <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">Vulnerability Analysis for Aging Dam
-                                Infrastructure</h1>
+                            <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">Vulnerability Analysis for Aging Dam Infrastructure</h1>
                             <p class="tw-text-sm lg:tw-text-base tw-font-light tw-text-black dark:tw-text-gray-400 ">U.S. dams are threatened by age-induced fragility and increased hydrologic stresses due to climate change. In many cases, communities and infrastructure below the dams have also increased dramatically over time, increasing the exposure to dam failure. Given that there are over 90,000 such dams in the United States, a traditional approach to dam risk assessment is challenging to implement. Our I-GUIDE project is taking an integrated approach to the application of “big data” sources so that a national or portfolio risk assessment of these assets can be attempted for the first time. This includes a spatially specific analysis of the climate changes of concern, of what is likely to be impacted if the dams fail, of the cascading effects of those failures on the national economy and other critical infrastructure elements, and the potential resilience of the infrastructure systems given the governance at different levels. The application of machine learning tools, statistical inference, natural language processing and the geo-hypercube together with traditional physics based and economics models are illustrated.</p>
                         </div>
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
@@ -175,12 +203,13 @@
                 <div id="proj3" class="project-tab-content">
                     <div class="tw-flex tw-flex-col md:tw-flex-row tw-gap-10 tw-p-0 md:tw-p-4">
                         <div class="projLeft md:tw-basis-7/12 animate__delay-1s">
-                            <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">Hypercube</h1>
-                            <p class="tw-text-sm lg:tw-text-base tw-font-light tw-text-black dark:tw-text-gray-400 ">The lack of support for computational reproducibility and data ethics is a significant challenge for knowledge infrastructure, including data privacy, consent, and transparency. I-GUIDE, a research organization, aims to support the decision-making process for sharing data and data-driven research outcomes. Geoethics is an important area for I-GUIDE, and it is integrated into their Convergence Curriculum for Geospatial Data Science. The curriculum provides structural guidance for computational reproducibility and data ethics. The article suggests several resources, including GIS Ethics Case Studies, Data and Society, and AI Now Institute, to support researchers in addressing the social implications of AI and data-centric technologies.</p>
+                            <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">Geospatial knowledge hypercube for learning aging dam information</h1>
+                            <p class="tw-text-sm lg:tw-text-base tw-font-light tw-text-black dark:tw-text-gray-400 ">Text data is often collected from many sources such as online news, academic publications, and social media in an unstructured, interconnected, and dynamic fashion. It is highly desirable to transform such diverse, massive, and unstructured data into structured knowledge representations for scalable and intelligent information retrieval and analysis. Previous research relied heavily on human labeling to extract knowledge from text data, which often costs significant effort and time given that numerous text corpora are extremely huge and dynamic. In this research, we propose a series of methods for organizing massive text data into multidimensional hypercubes with weak-supervision or no supervision involved to train machine learning models. We apply an aging dam news corpus to demonstrate the utility of the methods. Several target dimensions of the hypercubes are pre-defined including type of article, date, location, watershed, dam, government and organization, and impact, based on inputs from domain experts. For certain dimensions, such as “impact”, sub categories such as “human”, “infrastructure”, “economy”, and “ecosystem” are defined; while for others including “watershed” and “dam”, a dictionary or related vocabulary such as “lake”, “river”, etc is formulated. For the former case, we adopt pretrained language models to automatically discover related terms for each given category name and then serve the related terms as supervision to finetune the pretrained language models for document-level classification; while for the latter, we utilize pretrained language models to tag out the appearance of the target entities and filter the results with the given dictionary or related words. Our methods are designed to be generalizable to other domain-specific corpora of interest and our future work is planned to integrate the hypercubes with geospatial representations for understanding impacts of large-scale aging dam infrastructure across various spatial and temporal scales.
+</p>
                         </div>
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
                             <div class="tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hypercube.jpeg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hypercube.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -188,12 +217,12 @@
                 <div id="proj4" class="project-tab-content">
                     <div class="tw-flex tw-flex-col md:tw-flex-row tw-gap-10 tw-p-0 md:tw-p-4">
                         <div class="projLeft md:tw-basis-7/12 animate__delay-1s">
-                            <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">Geoethics</h1>
-                            <p class="tw-text-sm lg:tw-text-base tw-font-light tw-text-black dark:tw-text-gray-400 ">The lack of support for computational reproducibility and data ethics is a significant challenge for knowledge infrastructure, including data privacy, consent, and transparency. I-GUIDE, a research organization, aims to support the decision-making process for sharing data and data-driven research outcomes. Geoethics is an important area for I-GUIDE, and it is integrated into their Convergence Curriculum for Geospatial Data Science. The curriculum provides structural guidance for computational reproducibility and data ethics. The article suggests several resources, including GIS Ethics Case Studies, Data and Society, and AI Now Institute, to support researchers in addressing the social implications of AI and data-centric technologies.</p>
+                            <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">GeoEthics</h1>
+                            <p class="tw-text-sm lg:tw-text-base tw-font-light tw-text-black dark:tw-text-gray-400 ">Geoethics promotes appropriate practices to shape responsible and sustainable relationships between human activities and Earth systems, bringing attention to the implications that researchers’ work may have on society. Promoting geoethics also requires fostering a positive relationship between the scientific community and the public. One critical concern of geoethics regards the use of geospatial data for AI applications. Large volumes of geospatial data are generated in multiple ways, including sensors from satellites, aircraft, and scientific instruments; geolocation-based data services; social media; and government surveys. Access, aggregation, and use of these and other data sources can promise many societal benefits, such as responding to humanitarian disasters response, and predicting and mitigating risks from aging infrastructure such as dams. However, using these data also raises thorny ethical issues, including transparency and accountability, privacy, bias and discrimination, and data and model quality. Even when appropriate safeguards are in place, it is still possible for unintended ethical harms to result. Geospatial data researchers, and those who use these researchers’ outputs, such as policymakers, must strive to mitigate the risk of these harms as they strive to solve major societal issues.  </p>
                         </div>
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
                             <div class="tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/geoethics.jpeg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/geoethics.jpg" alt="">
                             </div>
                         </div>
                     </div>

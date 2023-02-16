@@ -254,7 +254,9 @@
                     $attachment_src = wp_get_attachment_image_src($attachment_id, 'full');
                     $default_img = get_template_directory_uri()."/img/area_6.png";
             ?>
-            <div class="<?php if($news_count>4) echo 'tw-hidden'; ?> tw-border lg:tw-block tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
+            <div class="<?php if($news_count>4) echo 'tw-hidden'; ?> tw-relative tw-border lg:tw-block tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
+            
+                <a class="stretched-link" href="<?php echo the_permalink(); ?>"></a>
                 <img class="tw-object-cover tw-h-[200px] tw-w-full"
                                             src="<?php echo ($attachment_src)? $attachment_src[0]: $default_img; ?>"
                                             alt="<?php the_title();?>">

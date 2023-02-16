@@ -168,7 +168,7 @@
                 <ul id="project-tabs-nav" class="tw-flex tw-flex-wrap tw--mb-px tw-text-sm lg:tw-text-base tw-font-semibold tw-text-center">
                     <li class="tw-flex-1 tw-text-center tw-border-b-2 tw-p-5 tw-cursor-pointer tw-grid tw-content-center" link="#proj1">Aging Dam </li>
                     <li class="tw-flex-1 md:tw-flex-2 tw-text-center tw-border-b-2 tw-p-5 tw-cursor-pointer tw-grid tw-content-center" link="#proj2">Convergence Curriculum</li>
-                    <li class="tw-flex-1 tw-text-center tw-border-b-2 tw-p-5 tw-cursor-pointer tw-grid tw-content-center" link="#proj3">HyperCube</li>
+                    <li class="tw-flex-1 tw-text-center tw-border-b-2 tw-p-5 tw-cursor-pointer tw-grid tw-content-center" link="#proj3">Geospatial Knowledge Hypercube</li>
                     <li class="tw-flex-1 tw-text-center tw-border-b-2 tw-p-5 tw-cursor-pointer tw-grid tw-content-center" link="#proj4">GeoEthics</li>
                 </ul>
             </div>
@@ -221,7 +221,7 @@
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
                             <div class="tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/geoethics.jpg" alt="">
-                                <span class="tw-font-light tw-text-xs">File:Bansky one nation under cctv.jpg - Wikimedia Commons. (2023, February 16). Retrieved from https://commons.wikimedia.org/wiki/File:Bansky_one_nation_under_cctv.jpg</span>
+                                <span class="tw-font-light tw-text-xs">File:Bansky one nation under cctv.jpg - Wikimedia Commons. (2023, February 16). Retrieved from https://acommons.wikimedia.org/wiki/File:Bansky_one_nation_under_cctv.jpg</span>
                             </div>
                         </div>
                     </div>

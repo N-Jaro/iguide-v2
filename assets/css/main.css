@@ -335,12 +335,24 @@
   height: 100% !important;
 }
 
+.tw-h-\[300px\] {
+  height: 300px !important;
+}
+
+.tw-h-\[150px\] {
+  height: 150px !important;
+}
+
 .tw-max-h-\[150px\] {
   max-height: 150px !important;
 }
 
 .tw-max-h-\[400px\] {
   max-height: 400px !important;
+}
+
+.tw-max-h-\[\] {
+  max-height:  !important;
 }
 
 .tw-min-h-\[450px\] {
@@ -458,6 +470,10 @@
   --tw-space-y-reverse: 0 !important;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse))) !important;
   margin-bottom: calc(1rem * var(--tw-space-y-reverse)) !important;
+}
+
+.tw-self-start {
+  align-self: flex-start !important;
 }
 
 .tw-overflow-hidden {

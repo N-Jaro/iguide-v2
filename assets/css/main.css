@@ -222,6 +222,11 @@
   margin-bottom: auto !important;
 }
 
+.tw-my-16 {
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important;
+}
+
 .tw--mb-px {
   margin-bottom: -1px !important;
 }
@@ -280,6 +285,14 @@
 
 .tw-mt-auto {
   margin-top: auto !important;
+}
+
+.tw-mt-16 {
+  margin-top: 4rem !important;
+}
+
+.tw-mb-10 {
+  margin-bottom: 2.5rem !important;
 }
 
 .tw-block {
@@ -687,6 +700,18 @@
 
 .tw-pt-\[200px\] {
   padding-top: 200px !important;
+}
+
+.tw-pb-3 {
+  padding-bottom: 0.75rem !important;
+}
+
+.tw-pt-16 {
+  padding-top: 4rem !important;
+}
+
+.tw-pb-10 {
+  padding-bottom: 2.5rem !important;
 }
 
 .tw-text-center {

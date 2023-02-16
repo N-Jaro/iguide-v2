@@ -202,7 +202,7 @@
                 <div id="proj3" class="project-tab-content">
                     <div class="tw-flex tw-flex-col md:tw-flex-row tw-gap-10 tw-p-0 md:tw-p-4">
                         <div class="projLeft md:tw-basis-7/12 animate__delay-1s">
-                            <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">Geospatial knowledge hypercube for learning aging dam information</h1>
+                            <h1 class="tw-text-2xl lg:tw-text-3xl tw-mb-5 tw-text-ig-orange tw-font-semibold">Geospatial Knowledge Hypercube</h1>
                             <p class="tw-text-sm lg:tw-text-base tw-font-light tw-text-black dark:tw-text-gray-400 ">Today there are massive volumes of text data, including for example news reports, research papers, and social media. Geospatial knowledge hypercube is defined as a multi-scale structure for integrating text data with heterogeneous geospatial data to discover latent connections and relationships through combining a variety of weakly supervised machine learning approaches. The hypercube lays a foundation for many knowledge discovery applications, such as recognizing geospatial entities and inferring geospatial relationships. </p>
                         </div>
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
@@ -234,7 +234,7 @@
         <div class="tw-w-full tw-bg-gray-200" style="transform: rotate(2deg); height:1px !important;"></div>
     </div>
 
-    <div class="news-section tw-container tw-w-full tw-px-10 tw-my-10">
+    <div class="news-section tw-container tw-w-full tw-px-10 tw-my-10 tw-pb-10">
         <h1 class="tw-text-2xl lg:tw-text-3xl tw-font-semibold">NEWS AND UPDATES</h1>
         <div class="news-grid tw-grid md:tw-grid-cols-3 lg:tw-grid-cols-4 md:tw-grid-rows-[max-content_min-content] md:tw-grid-flow-row tw-gap-3 md:tw-gap-5 lg:tw-gap-7  tw-mt-5">
             <?php
@@ -278,7 +278,7 @@
         </div>
     </div>
 
-    <div class="maillist-section tw-bg-gray-100 tw-w-full tw-pt-10 tw-px-10 tw-pb-0">
+    <div class="maillist-section tw-bg-gray-100 tw-w-full tw-pt-16 tw-px-10 tw-pb-5">
         <div class="tw-container">
             <h1 class="tw-text-2xl lg:tw-text-3xl tw-font-semibold">Join I-GUIDE's Mailing List</h1>
             <p class="tw-font-light tw-text-sm lg:tw-text-base tw-text-black tw-mt-5">Join I-GUIDE's mailing list for updates on geospatial
@@ -293,7 +293,7 @@
     </div>
 
 
-    <div class="tw-collob-section tw-w-full tw-mt-12 tw-px-10 tw-max-w-full">
+    <div class="tw-collob-section tw-w-full tw-my-16 tw-px-10 tw-max-w-full">
         <div class="tw-container">
             <h1 class="tw-text-2xl lg:tw-text-3xl tw-font-semibold">Collaborating Institutions</h1>
             <div class="tw-flex tw-gap-x-5 tw-gap-y-10 md:tw-gap-y-10 tw-align-center tw-items-center tw-justify-content tw-mx-auto tw-flex-wrap tw-py-10 tw-mt-5">

@@ -324,7 +324,7 @@ get_header();
 
             $title = $event->summary . "(" . date_format($start_date, 'h:i a') . " - " . date_format($end_date, 'h:i a') . ")";
 
-            $calendar->add_event($title, date_format($start_date, 'Y-m-d'), $htmllink, 1);
+            $calendar->add_event($title, date_format($start_date, 'Y-m-d'), $location, 1);
         }
     }
 

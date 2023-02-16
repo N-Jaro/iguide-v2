@@ -38,9 +38,8 @@
                                 <div class=" animate tw-col-start-3 tw-col-end-6 tw-self-start tw-relative animate__delay-3s">
                                     <div class="tab-card tw-h-[170px] lg:tw-h-[200px] xl:tw-h-[250px] tw-mx-10 tw-mb-5 md:tw-m-0 animate tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
                                         <a class="stretched-link" href="#"></a>
-                                        <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/high_hazard_dams.png" alt="">
-                                        <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">I-GUIDE All-Hands Meeting
-                                            (Virtual) </h1>
+                                        <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/mean_soil_moisture_content.jpg" alt="">
+                                        <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">Mean soil moisture content</h1>
                                     </div>
                                 </div>
                                 <div class="tw-hidden animate tw-col-start-6 tw-col-span-2 tw-self-start tw-row-start-1 tw-row-span-2 tw-relative md:tw-mt-20 animate__delay-4s">
@@ -222,6 +221,7 @@
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
                             <div class="tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/geoethics.jpg" alt="">
+                                <span class="tw-font-light tw-text-xs">File:Bansky one nation under cctv.jpg - Wikimedia Commons. (2023, February 16). Retrieved from https://commons.wikimedia.org/wiki/File:Bansky_one_nation_under_cctv.jpg</span>
                             </div>
                         </div>
                     </div>

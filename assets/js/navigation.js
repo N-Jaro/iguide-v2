@@ -62,7 +62,7 @@ $(function () {
         var motto = mottos[slideNumber++];
         $(motto).click();
         if(slideNumber >= mottos.length) i = 0;
-    }, 100000); 
+    }, 5000); 
 
     // Click function
     $('#tabs-nav span').on('click', function(){

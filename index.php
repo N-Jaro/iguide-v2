@@ -221,8 +221,8 @@
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
                             <div class="tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/geoethics.jpg" alt="">
-                                <span class="tw-font-light tw-text-xs">File:Bansky one nation under cctv.jpg - Wikimedia Commons. (2023, February 16). Retrieved from https://acommons.wikimedia.org/wiki/File:Bansky_one_nation_under_cctv.jpg</span>
-                            </div>
+                            </div>  
+                            <span class="tw-font-light tw-text-xs">File:Bansky one nation under cctv.jpg - Wikimedia Commons. (2023, February 16). Retrieved from https://acommons.wikimedia.org/wiki/File:Bansky_one_nation_under_cctv.jpg</span>
                         </div>
                     </div>
                 </div>

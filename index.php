@@ -151,7 +151,7 @@
         </div>
     </div>
 
-    <div class="tw-w-screen tw-overflow-y-visible tw-relative tw-py-20">
+    <div class="tw-w-full tw-overflow-y-visible tw-relative tw-py-20">
         <div class="tw-w-full tw-bg-gray-200" style="transform: rotate(-2deg); height:1px !important;"></div>
     </div>
 
@@ -231,7 +231,7 @@
         </div>
     </div>
 
-    <div class="tw-w-screen tw-overflow-y-visible tw-relative tw-py-20">
+    <div class="tw-w-full tw-overflow-y-visible tw-relative tw-py-20">
         <div class="tw-w-full tw-bg-gray-200" style="transform: rotate(2deg); height:1px !important;"></div>
     </div>
 

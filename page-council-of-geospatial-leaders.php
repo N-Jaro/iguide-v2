@@ -28,8 +28,8 @@
                 array(
                     'taxonomy' => 'position',
                     'field'    => 'slug',
-                    'terms'    => array('council-of-geospatial-leaders'),
-                    'operator' => 'IN',
+                    'terms'    => array( 'advisory', 'council-of-geospatial-leaders'),
+                    'operator' => 'NOT IN',
                 )
             )
         );

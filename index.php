@@ -43,23 +43,23 @@
                         </div>
                         <div id="connect-slide" class="hero-tab-content tw-p-0 lg:tw-p-2 z-20">
                             <div class="md:tw-grid md:tw-grid-cols-7 md:tw-gap-5 lg:tw-gap-7">
-                                <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-span-2 tw-row-span-2 tw-ease-in tw-duration-300 tw-h-fit tw-overflow-hidden tw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md animate__delay-1s">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
-                                    <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
+                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-span-2 tw-row-span-2 tw-ease-in tw-duration-300 tw-h-fit tw-overflow-hidden tw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md animate__delay-1s">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/AAG.png" alt="">
+                                    <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Symposiums @ AAG 2023
                                     </h1>
                                 </div>
-                                <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-2s">
+                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-2s">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top2.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">The first in-person
                                         I-GUIDE AHM!</h1>
                                 </div>
-                                <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-3s">
+                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-3s">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top3.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">I-GUIDE All-Hands Meeting
                                         (Virtual) </h1>
                                 </div>
-                                <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 tw-hidden md:tw-flex md:tw-m-0 md:tw-max-h-none animate tw-col-start-6 tw-col-span-2 tw-row-start-1 tw-ease-in tw-duration-300 tw-row-span-2 tw-h-fit tw-relative md:tw-mt-20 tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-4s">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
+                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 tw-hidden md:tw-flex md:tw-m-0 md:tw-max-h-none animate tw-col-start-6 tw-col-span-2 tw-row-start-1 tw-ease-in tw-duration-300 tw-row-span-2 tw-h-fit tw-relative md:tw-mt-20 tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-4s">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webinar.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
                                     </h1>
                                 </div>
@@ -67,22 +67,22 @@
                         </div>
                         <div id="discover-slide" class="hero-tab-content tw-p-0 lg:tw-p-2 z-20">
                             <div class="md:tw-grid md:tw-grid-cols-7 md:tw-gap-5 lg:tw-gap-7">
-                                <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-span-2 tw-row-span-2 tw-ease-in tw-duration-300 tw-h-fit tw-overflow-hidden tw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md animate__delay-1s">
+                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-span-2 tw-row-span-2 tw-ease-in tw-duration-300 tw-h-fit tw-overflow-hidden tw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md animate__delay-1s">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
                                     </h1>
                                 </div>
-                                <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-2s">
+                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-2s">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top2.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">The first in-person
                                         I-GUIDE AHM!</h1>
                                 </div>
-                                <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-3s">
+                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-none animate tw-col-start-3 tw-col-end-6 tw-ease-in tw-duration-300 tw-h-fit tw-relative tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-3s">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top3.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">I-GUIDE All-Hands Meeting
                                         (Virtual) </h1>
                                 </div>
-                                <div class="tw-max-h-[150px] tw-mx-10 tw-mb-5 tw-hidden md:tw-flex md:tw-m-0 md:tw-max-h-none animate tw-col-start-6 tw-col-span-2 tw-row-start-1 tw-ease-in tw-duration-300 tw-row-span-2 tw-h-fit tw-relative md:tw-mt-20 tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-4s">
+                                <div class="tab-card tw-max-h-[150px] tw-mx-10 tw-mb-5 tw-hidden md:tw-flex md:tw-m-0 md:tw-max-h-none animate tw-col-start-6 tw-col-span-2 tw-row-start-1 tw-ease-in tw-duration-300 tw-row-span-2 tw-h-fit tw-relative md:tw-mt-20 tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md animate__delay-4s">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top1.png" alt="">
                                     <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">I-GUIDE Webinar Series
                                     </h1>

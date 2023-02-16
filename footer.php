@@ -44,8 +44,8 @@
         $('#main-menu').slicknav({
             label: '',
             prependTo: 'body',
-            closedSymbol: '<span class="icon-chevron-right"></span>',
-            openedSymbol: '<span class="icon-chevron-down"></span>',
+            closedSymbol: '<i class="mr-1 fa fa-angle-right" aria-hidden="true"></i>',
+            openedSymbol: '<i class="mr-1 fa fa-angle-down" aria-hidden="true"></i>',
             init: function(){
                 
                 $('.slicknav_menu').prepend('<div class="mobileLogoWrap"><img class="logo-c mobilLogo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-color.png"alt=""><img class="mobilLogo logo-w" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-w.png"alt=""></div>');

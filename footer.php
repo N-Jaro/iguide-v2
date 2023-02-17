@@ -48,7 +48,7 @@
             openedSymbol: '<i class="mr-1 fa fa-chevron-down" aria-hidden="true"></i>',
             init: function(){
                 
-                $('.slicknav_menu').prepend('<div class="mobileLogoWrap"><img class="logo-c mobilLogo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-color.png"alt=""><img class="mobilLogo logo-w" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-w.png"alt=""></div>');
+                $('.slicknav_menu').prepend('<div class="mobileLogoWrap"><a href="<?php echo home_url(); ?>"><img class="logo-c mobilLogo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-color.png"alt=""><img class="mobilLogo logo-w" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-w.png"alt=""></a></div>');
                 // Add the arrows to navigation items
                 $('#navigation #main-menu>li.menu-item-has-children > a').append('<i class="ml-4 fa fa-angle-down" aria-hidden="true"></i>');
                 $('#navigation #main-menu>li>ul.sub-menu>li.menu-item-has-children > a').prepend('<i class="mr-2 fa fa-angle-left" aria-hidden="true"></i>');

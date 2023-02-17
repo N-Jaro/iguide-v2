@@ -96,14 +96,14 @@
                                 </div>
                                 <div class=" animate tw-col-start-3 tw-col-end-6 tw-self-start tw-relative animate__delay-2s ">
                                     <div class="tab-card tw-h-[170px] lg:tw-h-[200px] xl:tw-h-[250px] tw-mx-10 tw-mb-5 md:tw-m-0 tw-drop-shadow-md tw-rounded-lg tw-overflow-hidden ">
-                                        <a class="stretched-link" href="#"></a>
+                                        <a class="stretched-link" href="<?php echo home_url('/geospatial-knowledge-hypercube'); ?>"></a>
                                         <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/hypercube.png" alt="">
                                         <h1 class="tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">Geospatial Knowledge Hypercube</h1>
                                     </div>
                                 </div>
                                 <div class=" animate tw-col-start-3 tw-col-end-6 tw-self-start tw-relative animate__delay-3s">
                                     <div class="tab-card tw-h-[170px] lg:tw-h-[200px] xl:tw-h-[250px] tw-mx-10 tw-mb-5 md:tw-m-0 animate tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md ">
-                                        <a class="stretched-link" href="#"></a>
+                                        <a class="stretched-link" href="<?php echo home_url('/vulnerability-analysis-for-aging-dam-infrastructure'); ?>"></a>
                                         <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/high_hazard_dams.png" alt="">
                                         <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">Aging Dams</h1>
                                     </div>

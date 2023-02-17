@@ -23,21 +23,21 @@
                             <div class="md:tw-grid md:tw-grid-cols-7 md:tw-gap-5 lg:tw-gap-7 tw-grid-rows-[min-content_min-content]">
                                 <div class=" animate tw-col-span-2 tw-row-span-2 tw-self-start animate__delay-3s">
                                     <div class="tab-card tw-max-h-[170px] md:tw-max-h-max tw-mx-10 tw-mb-5 md:tw-m-0 md:tw-max-h-nonetw-relative md:tw-mt-10 tw-rounded-lg tw-drop-shadow-md  tw-overflow-hidden">
-                                        <a class="stretched-link" href="#"></a>
+                                        <a class="stretched-link" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020WR029521" target="_blank"></a>
                                         <img class="object-cover tw-h-full tw-w-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/BAthymetirc_model_development.jpg" alt="">
                                         <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">Bathymetric Model Development</h1>
                                     </div>
                                 </div>
                                 <div class=" animate tw-col-start-3 tw-col-end-6 tw-self-start tw-relative animate__delay-2s">
                                     <div class="tab-card tw-h-[170px] lg:tw-h-[200px] xl:tw-h-[250px] tw-mx-10 tw-mb-5 md:tw-m-0 tw-drop-shadow-md tw-rounded-lg tw-overflow-hidden ">
-                                        <a class="stretched-link" href="#"></a>
+                                        <a class="stretched-link" href="https://gardner.utah.edu/wp-content/uploads/GSL-Assessment-Feb2023.pdf?x71849" target="_blank"></a>
                                         <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/average_annual_elevation_of_great_salt_lake.jpg" alt="">
                                         <h1 class="tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-2">Average Annual Elevation of Great Salt Lake</h1>
                                     </div>
                                 </div>
                                 <div class=" animate tw-col-start-3 tw-col-end-6 tw-self-start tw-relative animate__delay-3s">
                                     <div class="tab-card tw-h-[170px] lg:tw-h-[200px] xl:tw-h-[250px] tw-mx-10 tw-mb-5 md:tw-m-0 animate tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
-                                        <a class="stretched-link" href="#"></a>
+                                        <a class="stretched-link" href="https://hess.copernicus.org/articles/25/551/2021/hess-25-551-2021.html" target="_blank"></a>
                                         <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/mean_soil_moisture_content.jpg" alt="">
                                         <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">Mean soil moisture content</h1>
                                     </div>

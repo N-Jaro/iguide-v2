@@ -319,10 +319,6 @@
   height: 10vh !important;
 }
 
-.tw-h-\[150px\] {
-  height: 150px !important;
-}
-
 .tw-h-\[170px\] {
   height: 170px !important;
 }
@@ -352,12 +348,12 @@
   max-height: 150px !important;
 }
 
-.tw-max-h-\[400px\] {
-  max-height: 400px !important;
-}
-
 .tw-max-h-\[170px\] {
   max-height: 170px !important;
+}
+
+.tw-max-h-\[400px\] {
+  max-height: 400px !important;
 }
 
 .tw-min-h-\[450px\] {
@@ -1474,10 +1470,6 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
     height: 80px !important;
   }
 
-  .md\:tw-h-auto {
-    height: auto !important;
-  }
-
   .md\:tw-h-full {
     height: 100% !important;
   }
@@ -1486,22 +1478,13 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
     max-height: 600px !important;
   }
 
-  .md\:tw-max-h-none {
-    max-height: none !important;
-  }
-
-  .md\:tw-max-h-\[350px\] {
-    max-height: 350px !important;
-  }
-
-  .md\:tw-max-h-fit {
-    max-height: -moz-fit-content !important;
-    max-height: fit-content !important;
-  }
-
   .md\:tw-max-h-max {
     max-height: -moz-max-content !important;
     max-height: max-content !important;
+  }
+
+  .md\:tw-max-h-none {
+    max-height: none !important;
   }
 
   .md\:tw-w-3\/4 {
@@ -1663,14 +1646,6 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
 
   .lg\:tw-h-\[200px\] {
     height: 200px !important;
-  }
-
-  .lg\:tw-h-\[350px\] {
-    height: 350px !important;
-  }
-
-  .lg\:tw-max-h-\[350px\] {
-    max-height: 350px !important;
   }
 
   .lg\:tw-w-1\/3 {

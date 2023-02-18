@@ -182,6 +182,7 @@
                         <div class="projRight md:tw-basis-5/12 animate__delay-5s">
                             <div class="tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/high_hazard_dams.png" alt="">
+                                <p class="tw-text-xs">Concha Larrauri, P., Lall, U., & Hariri-Ardebili, M. A. (2023). Needs for Portfolio Risk Assessment of Aging Dams in the United States. Journal of Water Resources Planning and Management, 149(3), 04022083.</p>
                             </div>
                         </div>
                     </div>

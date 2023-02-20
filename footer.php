@@ -1,8 +1,8 @@
 <footer class="tw-flex tw-p-10">
-        <div class="tw-text-white">
+        <div class="tw-text-white 2xl:tw-container">
             <div class="tw-flex tw-flex-col tw-content-center md:tw-flex-row tw-justify-evenly">
                 <div class="tw-flex tw-content-center tw-my-auto tw-gap-x-5">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nsf.png" alt="" class="tw-h-[50px] md:tw-h-[7vw]">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nsf.png" alt="" class="tw-h-[50px] md:tw-h-[7vw] 2xl:tw-h-[100px]">
                     <div class="tw-text-xs lg:tw-text-base tw-text-white">
                         <h1 class="tw-font-bold">©
                             <script>document.write(new Date().getFullYear())</script> I-GUIDE All Rights Reserved

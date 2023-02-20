@@ -638,6 +638,11 @@
   padding-bottom: 1.5rem !important;
 }
 
+.tw-px-0 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
 .tw-pb-10 {
   padding-bottom: 2.5rem !important;
 }
@@ -1357,6 +1362,82 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
     @apply tw-hidden md:tw-flex tw-items-center tw-text-sm xl:tw-text-base tw-space-x-4 xl:tw-space-x-8 tw-font-light;
 } */
 
+@media (min-width: 1280px) {
+  .xl\:tw-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width: 640px) {
+    .xl\:tw-container {
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .xl\:tw-container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .xl\:tw-container {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .xl\:tw-container {
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .xl\:tw-container {
+      max-width: 1536px;
+    }
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:tw-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width: 640px) {
+    .\32xl\:tw-container {
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .\32xl\:tw-container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .\32xl\:tw-container {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .\32xl\:tw-container {
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .\32xl\:tw-container {
+      max-width: 1536px;
+    }
+  }
+}
+
 .hover\:tw-scale-110:hover {
   --tw-scale-x: 1.1 !important;
   --tw-scale-y: 1.1 !important;
@@ -1575,6 +1656,11 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
     padding-bottom: 1rem !important;
   }
 
+  .md\:tw-px-20 {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
+
   .md\:tw-pb-\[130px\] {
     padding-bottom: 130px !important;
   }
@@ -1686,6 +1772,21 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
     padding-right: 5rem !important;
   }
 
+  .lg\:tw-px-10 {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+  }
+
+  .lg\:tw-px-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .lg\:tw-px-5 {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+
   .lg\:tw-text-left {
     text-align: left !important;
   }
@@ -1717,12 +1818,28 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
 }
 
 @media (min-width: 1280px) {
+  .xl\:tw-ml-0 {
+    margin-left: 0px !important;
+  }
+
   .xl\:tw-h-\[250px\] {
     height: 250px !important;
   }
 
   .xl\:tw-h-\[80px\] {
     height: 80px !important;
+  }
+
+  .xl\:tw-h-\[\] {
+    height:  !important;
+  }
+
+  .xl\:tw-h-\[150px\] {
+    height: 150px !important;
+  }
+
+  .xl\:tw-h-\[100px\] {
+    height: 100px !important;
   }
 
   .xl\:tw-w-\[165px\] {
@@ -1739,6 +1856,21 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
     padding: 0px !important;
   }
 
+  .xl\:tw-px-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .xl\:tw-px-5 {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+
+  .xl\:tw-px-10 {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+  }
+
   .xl\:tw-text-8xl {
     font-size: 6rem !important;
     line-height: 1 !important;
@@ -1752,5 +1884,58 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
   .xl\:tw-text-xl {
     font-size: 1.25rem !important;
     line-height: 1.75rem !important;
+  }
+
+  .xl\:tw-text-3xl {
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+  }
+
+  .xl\:tw-text-\[2vw\] {
+    font-size: 2vw !important;
+  }
+
+  .xl\:tw-text-\[2\.5vw\] {
+    font-size: 2.5vw !important;
+  }
+
+  .xl\:tw-text-\[3vw\] {
+    font-size: 3vw !important;
+  }
+
+  .xl\:tw-text-\[\] {
+    color:  !important;
+  }
+
+  .xl\:tw-text-\[2\] {
+    color: 2 !important;
+  }
+
+  .xl\:tw-text-\[2xl\] {
+    color: 2xl !important;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:tw-m-0 {
+    margin: 0px !important;
+  }
+
+  .\32xl\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .\32xl\:tw-h-\[150px\] {
+    height: 150px !important;
+  }
+
+  .\32xl\:tw-h-\[100px\] {
+    height: 100px !important;
+  }
+
+  .\32xl\:tw-px-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 }

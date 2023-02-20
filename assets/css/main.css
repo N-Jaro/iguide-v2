@@ -181,8 +181,24 @@
   grid-column-start: 6 !important;
 }
 
+.tw-col-start-2 {
+  grid-column-start: 2 !important;
+}
+
+.tw-col-start-4 {
+  grid-column-start: 4 !important;
+}
+
 .tw-col-end-6 {
   grid-column-end: 6 !important;
+}
+
+.tw-col-end-3 {
+  grid-column-end: 3 !important;
+}
+
+.tw-col-end-4 {
+  grid-column-end: 4 !important;
 }
 
 .tw-row-span-2 {
@@ -342,6 +358,22 @@
 
 .tw-h-full {
   height: 100% !important;
+}
+
+.tw-h-\[\] {
+  height:  !important;
+}
+
+.tw-h-\[80vh\] {
+  height: 80vh !important;
+}
+
+.tw-h-\[450px\] {
+  height: 450px !important;
+}
+
+.tw-h-\[500px\] {
+  height: 500px !important;
 }
 
 .tw-max-h-\[150px\] {
@@ -1588,6 +1620,10 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
     width: 150% !important;
   }
 
+  .md\:tw-w-\[100\%\] {
+    width: 100% !important;
+  }
+
   .md\:tw-basis-5\/12 {
     flex-basis: 41.666667% !important;
   }
@@ -1610,6 +1646,10 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
 
   .md\:tw-grid-cols-7 {
     grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+  }
+
+  .md\:tw-grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
   }
 
   .md\:tw-grid-rows-2 {
@@ -1744,6 +1784,10 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
 
   .lg\:tw-w-\[110\%\] {
     width: 110% !important;
+  }
+
+  .lg\:tw-w-\[100\%\] {
+    width: 100% !important;
   }
 
   .lg\:tw-grid-cols-4 {

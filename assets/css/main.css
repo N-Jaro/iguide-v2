@@ -356,6 +356,14 @@
   max-height: 400px !important;
 }
 
+.tw-max-h-\[\] {
+  max-height:  !important;
+}
+
+.tw-max-h-\[200px\] {
+  max-height: 200px !important;
+}
+
 .tw-min-h-\[450px\] {
   min-height: 450px !important;
 }

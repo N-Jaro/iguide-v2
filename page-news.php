@@ -49,7 +49,7 @@
                                 <div class="card <?php echo $news_or_event[0]->slug;?> border-0">
                                     <div class="row g-3">
                                         <div class="col-sm-3">
-                                            <img src="<?php echo ($attachment_src)? $attachment_src[0]: $default_img; ?>" class="card-img-top h-100 " alt="<?php echo get_the_title();?>">
+                                            <img src="<?php echo ($attachment_src)? $attachment_src[0]: $default_img; ?>" class="card-img-top tw-max-h-[200px]" alt="<?php echo get_the_title();?>">
                                             <a href="<?php (get_field("external_link")) ? the_field("external_link") : the_permalink(); ?>" class="stretched-link"></a>
                                         </div>
                                         <div class="col-sm-9">

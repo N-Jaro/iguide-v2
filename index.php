@@ -135,7 +135,8 @@
             </h1>
         </div>
         <div class="md:tw-col-start-2 md:tw-row-start-2">
-            <p class="tw-z-2 tw-text-xs md:tw-text-sm lg:tw-text-base tw-font-light tw-tracking-wide tw-mt-1 tw-text-center lg:tw-text-left">The National Science Foundation (NSF) Institute for Geospatial Understanding through an Integrative Discovery Environment (I-GUIDE) integrates AI and cyberGIS, reproducible data-intensive analytics and modeling, FAIR data principles, and innovative education and workforce development programs to transform geospatial data-intensive sciences. This transformation catalyzes new convergence science to advance many fields, including computer, data, and information sciences, atmospheric sciences, ecology, economics, environmental science and engineering, human-environment and geographical sciences, hydrology and water sciences, industrial engineering, sociology, and statistics. I-GUIDE empowers various communities to generate data-intensive solutions to society's resilience and sustainability concerns through synergistic achievements in these disciplines. </p>
+            <p class="tw-text-md md:tw-text-lg lg:tw-text-2xl tw-font-light tw-tracking-wide tw-mt-1 tw-text-center lg:tw-text-left"><strong>Vision:</strong> <br class="tw-hidden md:tw-block lg:tw-hidden"> Digital discovery and innovation <br class="tw-hidden md:tw-block lg:tw-hidden"> through harnessing the geospatial data revolution </p>
+            <p class="tw-text-md md:tw-text-lg lg:tw-text-2xl tw-font-light tw-tracking-wide tw-mt-1 tw-text-center lg:tw-text-left tw-pt-4"><strong>Mission:</strong> <br class="tw-hidden md:tw-block lg:tw-hidden"> Transform convergence and geospatial sciences<br class="tw-hidden md:tw-block lg:tw-hidden"> for holistic sustainability solutions</p>
         </div>
 
         <div class="tw-w-full tw-flex tw-justify-center tw-drop-shadow-xl md:tw-row-start-1 md:tw-row-span-2">

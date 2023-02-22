@@ -173,6 +173,11 @@
   background-color: rgb(231 181 47 / var(--tw-bg-opacity));
 }
 
+.nav .menu-item-has-children ul.sub-menu ul.sub-menu ul.sub-menu li:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(99 133 58 / var(--tw-bg-opacity));
+}
+
 .nav .menu-item-has-children:hover>ul.sub-menu {
   pointer-events: auto;
   display: flex;

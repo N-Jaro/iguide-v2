@@ -21,6 +21,7 @@
             <div class="nav-link">
                 <!-- <div class="btn-group" role="group" aria-label="..."> -->
                     <a href="<?php echo home_url("/") ?>" class="btn btn-outline-secondary mt-4">Back to I-GUIDE website</a>
+                    <a href="https://iguide.illinois.edu/platform/getting-started/" class="btn btn-warning mt-4 " target="_blank">Get started</a>
                     <a href="https://jupyter.iguide.illinois.edu/hub/login" class="btn btn-warning mt-4 border-left" target="_blank">Log in</a>
                 <!-- </div> -->
             </div>

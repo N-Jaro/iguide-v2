@@ -352,16 +352,12 @@
   max-height: 170px !important;
 }
 
-.tw-max-h-\[400px\] {
-  max-height: 400px !important;
-}
-
-.tw-max-h-\[\] {
-  max-height:  !important;
-}
-
 .tw-max-h-\[200px\] {
   max-height: 200px !important;
+}
+
+.tw-max-h-\[400px\] {
+  max-height: 400px !important;
 }
 
 .tw-min-h-\[450px\] {
@@ -694,6 +690,10 @@
   padding-top: 0.5rem !important;
 }
 
+.tw-pt-4 {
+  padding-top: 1rem !important;
+}
+
 .tw-pt-7 {
   padding-top: 1.75rem !important;
 }
@@ -704,10 +704,6 @@
 
 .tw-pt-\[200px\] {
   padding-top: 200px !important;
-}
-
-.tw-pt-4 {
-  padding-top: 1rem !important;
 }
 
 .tw-text-left {
@@ -1659,14 +1655,14 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
     line-height: 1.5rem !important;
   }
 
-  .md\:tw-text-sm {
-    font-size: 0.875rem !important;
-    line-height: 1.25rem !important;
-  }
-
   .md\:tw-text-lg {
     font-size: 1.125rem !important;
     line-height: 1.75rem !important;
+  }
+
+  .md\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
   }
 }
 
@@ -1749,6 +1745,11 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
     text-align: left !important;
   }
 
+  .lg\:tw-text-2xl {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+  }
+
   .lg\:tw-text-3xl {
     font-size: 1.875rem !important;
     line-height: 2.25rem !important;
@@ -1772,11 +1773,6 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
   .lg\:tw-text-xl {
     font-size: 1.25rem !important;
     line-height: 1.75rem !important;
-  }
-
-  .lg\:tw-text-2xl {
-    font-size: 1.5rem !important;
-    line-height: 2rem !important;
   }
 }
 

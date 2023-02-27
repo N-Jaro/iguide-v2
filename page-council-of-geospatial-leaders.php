@@ -41,7 +41,7 @@
         <?php if ( $advisory_boards->have_posts() ) :?>
         <?php  while ( $advisory_boards->have_posts() ) : $advisory_boards->the_post(); ?>
 
-            <div class="col-6 col-sm-4 col-md-2 col-lg-2">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                 <div class="card people-card ">
                 <a href="<?php the_field("profile_url"); ?>" class="stretched-link" target="_new"><div class="card-img-top box-shadow" style="background-image: url('<?php the_field('photo'); ?>');"></div></a>
                     <div class="card-body ">

@@ -62,8 +62,8 @@
                         <div class="card h-100">
                             <div style="background-image:url('<?php echo esc_url($notebook_image['url']); ?>')" class="card-image rounded-top" ></div>
                             <div class="card-body d-flex flex-column align-items-start"">
-                                <h5 class="card-title"><b>Community Hydrological Model support on I-GUIDE platform</b></h5>
-                                <p class="card-text" style="font-size:13px;">WRFHydro is a leading-edge, open-source community hydrometeorological and hydrologic modelling system developed by NCAR. The I-GUIDE platform integrates various state-of-the-art cyberinfrastructure (CI) capabilities to support Community Hydrological Modelling. It is the code base for the NOAA National Water Model (NWM).</p>
+                                <h5 class="card-title"><b><?php the_title(); ?></b></h5>
+                                <p class="card-text" style="font-size:13px;"><?php echo $description; ?></p>
                                 <a class="btn btn-warning align-self-end" target="_blank" rel="noopener noreferrer" href="<?php echo esc_url($url); ?>">Open Notebook</a>
                             </div>
                         </div>

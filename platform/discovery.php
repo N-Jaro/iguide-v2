@@ -52,7 +52,7 @@
                         $description = get_field('description');
                         $notebook_image = get_field('notebook_image');
                         $github_info = get_field('github_infomation');
-                        $repo_name = explode('/',$github_info['github_repo']);
+                        $repo_name = explode('/',rtrim($github_info['github_repo'],'/'));
                         $url = add_query_arg(array(
                             'repo' => urlencode($github_info['github_repo']),
                             'urlpath' => urlencode('lab/tree/'.end($repo_name).'/'.$github_info['ipynb_file_name'])

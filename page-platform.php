@@ -35,9 +35,11 @@
                                 <div class="row align-items-center">
                                     <div class="col-12 text-center">
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/IGUIDE_logoH_ColorMulti.png" style="width: 70%;" class="mb-5 img-fluid"> <br>
-                                        <a href="<?php echo home_url('/discovery');?>" class="btn btn-warning shadow-sm">Launch I-GUIDE Platform</a>
+                                        <a href="<?php echo home_url('/discovery');?>" class="btn btn-warning shadow-sm mb-4">Launch I-GUIDE Featured Notebooks</a>
                                         <br>
-                                        <a style="font-size:11px;text-decoration:none;color:#a1a1a1;" class="text-center" href="<?php echo home_url('/iguide-data-and-computation-resources');?>">More I-GUIDE Resources</a>
+					<a href="https://iguide.cuahsi.io/discover" class="btn btn-warning shadow-sm  mb-4">Launch I-GUIDE Data Catalog</a>
+                                        <br>
+                                        <a style="font-size:15px;text-decoration:none;color:#a1a1a1;" class="text-center" href="<?php echo home_url('/iguide-data-and-computation-resources');?>">More I-GUIDE Resources</a>
                                     </div>
                                 </div>
                             </div> 
@@ -51,7 +53,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-8 right-panel vh-100"  style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/images/rightbg.png')">
+                <div class="col-8 right-panel vh-100"  style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/images/rightbg.png'); background-size: cover;">
                     <div class="row">
                         <div class="col-12 d-flex flex-column align-items-stretch justify-content-center vh-100">
                             <div class="row justify-content-center flex-grow-1">

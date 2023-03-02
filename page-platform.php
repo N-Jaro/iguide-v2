@@ -40,7 +40,7 @@
                                         <p class="mb-2 fw-semibold" st>Addtional Resources</p>
                                         <a class="text-center btn btn-sm btn-outline-secondary mb-2" href="<?php echo home_url('/iguide-data-and-computation-resources');?>">I-GUIDE Data & Computation Resources</a>
                                         <br>
-                                        <a class="text-center btn btn-sm btn-outline-secondary" href="<?php echo home_url('/projects/convergence-curriculum-for-geospatial-data-science');?>">GeoSpatial Data Science Curriculum</a>
+                                        <a class="text-center btn btn-sm btn-outline-secondary" href="<?php echo home_url('/projects/convergence-curriculum-for-geospatial-data-science');?>">Geospatial Data Science Curriculum</a>
                                     </div>
                                 </div>
                             </div> 

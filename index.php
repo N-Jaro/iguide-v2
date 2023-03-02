@@ -263,6 +263,10 @@
                                             alt="<?php the_title();?>">
                 <div class="tw-px-1 lg:tw-px-2 md:tw-px-6 tw-py-4">
                     <div class="tw-font-semibold tw-text-sm md:tw-text-sm lg:tw-text-base xl:tw-text-xl tw-mb-2"><?php the_title();?></div>
+                    <?php if ( $news_or_event[0]->slug == "event"){?>
+                        <p class="tw-font-light tw-mb-2 tw-text-sm"><strong>Event date:</strong> <?php echo get_field('event_date'); ?></p>
+                    <?php } ?>
+                    <p class="tw-text-gray-500 tw-font-light tw-italic tw-text-xs lg:tw-text-xs ">
                     <p class="tw-text-gray-500 tw-font-light tw-italic tw-text-xs lg:tw-text-sm ">
                         <?php my_post_time_ago(); ?>
                     </p>

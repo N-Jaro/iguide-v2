@@ -1774,6 +1774,11 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
     font-size: 1.25rem !important;
     line-height: 1.75rem !important;
   }
+
+  .lg\:tw-text-xs {
+    font-size: 0.75rem !important;
+    line-height: 1rem !important;
+  }
 }
 
 @media (min-width: 1280px) {

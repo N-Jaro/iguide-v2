@@ -257,7 +257,7 @@
             ?>
             <div class="<?php if($news_count>4) echo 'tw-hidden'; ?> tw-relative tw-border lg:tw-block tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
             
-                <a class="stretched-link" href="<?php echo the_permalink(); ?>"></a>
+                <a class="stretched-link" href="<?php (get_field("external_link")) ? the_field("external_link") : the_permalink(); ?>"></a>
                 <img class="tw-object-cover tw-h-[200px] tw-w-full"
                                             src="<?php echo ($attachment_src)? $attachment_src[0]: $default_img; ?>"
                                             alt="<?php the_title();?>">

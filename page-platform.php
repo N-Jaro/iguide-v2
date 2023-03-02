@@ -31,11 +31,13 @@
                                 <div class="row align-items-center">
                                     <div class="col-12 text-center">
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/IGUIDE_logoH_ColorMulti.png" style="width: 70%;" class="mb-5 img-fluid"> <br>
-                                        <a href="<?php echo home_url('/discovery');?>" class="btn btn-warning shadow-sm">Launch I-GUIDE Featured Notebooks</a>
+                                        <a href="<?php echo home_url('/discovery');?>" class="btn btn-warning shadow-sm">Launch I-GUIDE Notebooks</a>
                                         <br>
 					<a href="https://iguide.cuahsi.io/discover" class="btn btn-warning shadow-sm">Launch I-GUIDE Data Catalog</a>
                                         <br>
-                                        <a style="font-size:11px;text-decoration:none;color:#a1a1a1;" class="text-center" href="<?php echo home_url('/iguide-data-and-computation-resources');?>">More I-GUIDE Resources</a>
+                                        <a style="font-size:11px;text-decoration:none;color:#3d3d3d;" class="text-center" href="<?php echo home_url('/iguide-data-and-computation-resources');?>">I-GUIDE Data & Computation Resources</a>
+					<br>
+					<a style="font-size:11px;text-decoration:none;color:#3d3d3d;" class="text-center" href="<?php echo home_url('/projects/convergence-curriculum-for-geospatial-data-science');?>">GeoSpatial Data Science Curriculum</a>
                                     </div>
                                 </div>
                             </div> 

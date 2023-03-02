@@ -39,27 +39,38 @@
     
         <div class="container">
             <div class="row my-5">
-                <div class="row row-cols-1 row-cols-md-2 g-2 mb-5">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-2 mb-5">
+
+                <?php 
+                    $notebook_args = array(
+                        'posts_per_page'=> -1,
+                        'post_type'		=> 'pltf_notebook',
+                    ); 
+                    $notebooks = new WP_Query($notebook_args);
+                    if ( $notebooks->have_posts() ) :
+                        while ( $notebooks->have_posts() ) : $notebooks->the_post(); 
+                        $description = get_field('description');
+                        $notebook_image = get_field('notebook_image');
+                        $github_info = get_field('github_infomation');
+                        $repo_name = explode('/',rtrim($github_info['github_repo'],'/'));
+                        $url = add_query_arg(array(
+                            'repo' => urlencode($github_info['github_repo']),
+                            'urlpath' => urlencode('lab/tree/'.end($repo_name).'/'.$github_info['ipynb_file_name'])
+                        ), 'https://jupyter.iguide.illinois.edu/hub/user-redirect/git-pull');
+                ?>
                     <div class="col">
                         <div class="card h-100">
-                            <div style="background-image:url('<?php echo get_template_directory_uri(); ?>/platform/resources/img/ewater-map.jpg')" class="card-image rounded-top" ></div>
+                            <div style="background-image:url('<?php echo esc_url($notebook_image['url']); ?>')" class="card-image rounded-top" ></div>
                             <div class="card-body d-flex flex-column align-items-start"">
-                                <h5 class="card-title"><b>Community Hydrological Model support on I-GUIDE platform</b></h5>
-                                <p class="card-text" style="font-size:13px;">WRFHydro is a leading-edge, open-source community hydrometeorological and hydrologic modelling system developed by NCAR. The I-GUIDE platform integrates various state-of-the-art cyberinfrastructure (CI) capabilities to support Community Hydrological Modelling. It is the code base for the NOAA National Water Model (NWM).</p>
-                                <a class="btn btn-warning align-self-end" target="_blank" rel="noopener noreferrer" href="https://jupyter.iguide.illinois.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FI-GUIDE%2Fcommunity_hydrologic_modeling_wrfhydro&urlpath=lab%2Ftree%2Fcommunity_hydrologic_modeling_wrfhydro%2Figuide_wrfhydro.ipynb+&branch=main">Open Notebook</a>
+                                <h5 class="card-title"><b><?php the_title(); ?></b></h5>
+                                <p class="card-text" style="font-size:13px;"><?php echo $description; ?></p>
+                                <a class="btn btn-warning align-self-end" target="_blank" rel="noopener noreferrer" href="<?php echo esc_url($url); ?>">Open Notebook</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div style="background-image:url('<?php echo get_template_directory_uri(); ?>/platform/resources/img/dam_failure.jpg')" class="card-image rounded-top" ></div>
-                            <div class="card-body d-flex flex-column align-items-start">
-                                <h5 class="card-title"><b>Vulnerability Analysis for Aging Dam Infrastructure</b></h5>
-                                <p class="card-text" style="font-size:13px;">This workflow aims to address the questions of whether and where socioeconomically disadvantaged populations are vulnerable to disasters caused by potential aging dam failures by analyzing 419 federal dams in the conterminous US.</p>
-                                <a class="btn btn-warning" target="_blank" rel="noopener noreferrer" href="https://jupyter.iguide.illinois.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FI-GUIDE%2Fvulnerability_analysis_agingdams&urlpath=lab%2Ftree%2Fvulnerability_analysis_agingdams%2Figuide_agingdams.ipynb+&branch=main">Open Notebook</a>
-                            </div>
-                        </div>
-                    </div>
+                
+                <?php  endwhile;  ?>
+                <?php endif; ?>
                 </div>
             </div>
         </div>

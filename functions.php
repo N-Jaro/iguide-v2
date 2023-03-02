@@ -1,11 +1,15 @@
 <?php
-ini_set('display_errors','Off');
-ini_set('error_reporting', E_ALL );
-define('WP_DEBUG', false);
-define('WP_DEBUG_DISPLAY', false);
 
 //Hide admin bar from front-end
-add_filter('show_admin_bar', '__return_false');
+
+function admin_bar_check() {
+    if ( ! current_user_can( 'manage_options' ) ) {
+        return false;
+    }
+
+    return true;
+}
+add_filter('show_admin_bar', 'admin_bar_check');
 
 register_nav_menus(
     array(

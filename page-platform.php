@@ -2,6 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/favicon-16x16.png">
+        <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/site.webmanifest">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>I-GUIDE Platform: Convergence Science to Transform Geospatial Data-instensice Science</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -38,6 +42,7 @@
                                         <a style="font-size:12px;text-decoration:none;" class="text-center text-muted mb-4" href="<?php echo home_url('/iguide-data-and-computation-resources');?>">I-GUIDE Data & Computation Resources</a>
                                         <br>
                                         <a style="font-size:12px;text-decoration:none;" class="text-center text-muted mb-4" href="<?php echo home_url('/projects/convergence-curriculum-for-geospatial-data-science');?>">GeoSpatial Data Science Curriculum</a>
+
                                     </div>
                                 </div>
                             </div> 
@@ -51,7 +56,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-8 right-panel vh-100"  style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/images/rightbg.png')">
+                <div class="col-8 right-panel vh-100"  style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/images/rightbg.png'); background-size: cover;">
                     <div class="row">
                         <div class="col-12 d-flex flex-column align-items-stretch justify-content-center vh-100">
                             <div class="row justify-content-center flex-grow-1">

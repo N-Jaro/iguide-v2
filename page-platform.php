@@ -16,7 +16,7 @@
                 content: "";
                 width: 100%;
                 height: 100%;
-                background-image: url(<?php echo get_template_directory_uri(); ?>'/assets/images/leftbg.jpeg');
+                background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/leftbg.jpeg');
                 display: block;
                 z-index: -100;
                 position: absolute;

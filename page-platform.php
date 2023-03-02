@@ -35,7 +35,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-12 text-center">
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/IGUIDE_logoH_ColorMulti.png" style="width: 70%;" class="mb-5 img-fluid"> <br>
-                                        <a href="<?php echo home_url('/discovery');?>" class="btn btn-lg btn-warning shadow-sm">Launch I-GUIDE Notebooks</a>
+                                        <a href="<?php echo home_url('/discovery');?>" class="btn btn-lg btn-warning shadow-sm">Launch I-GUIDE Notebooks</a><br>
                                         <a href="https://iguide.cuahsi.io/discover" class="btn btn-lg btn-warning shadow-sm my-4">Launch I-GUIDE Data Catalog</a>
                                         <p class="mb-2 fw-semibold" st>Addtional Resources</p>
                                         <a class="text-center btn btn-sm btn-outline-secondary mb-2" href="<?php echo home_url('/iguide-data-and-computation-resources');?>">I-GUIDE Data & Computation Resources</a>

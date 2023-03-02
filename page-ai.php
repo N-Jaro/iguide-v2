@@ -63,7 +63,7 @@
                 array(
                     'taxonomy' => 'focus_area',
                     'field'    => 'slug',
-                    'terms'    => 'convergence',
+                    'terms'    => 'ai',
                 ),
             )
         );

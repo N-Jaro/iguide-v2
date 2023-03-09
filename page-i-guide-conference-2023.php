@@ -6,7 +6,7 @@ else {
     get_header();
 ?>
     <div class="page-title tw-w-full tw-block  tw-relative tw--mt-[200px]" >
-        <div class="tw-container tw-mx-auto tw-px-4 tw-h-min-[200px] tw-pt-12">
+        <div class="tw-container tw-mx-auto tw-px-4 tw-h-min-[200px]">
             <div class="tw-border-l-8 tw-pl-3 tw-border-ig-orange tw-text-white tw-font-semibold tw-text-2xl">
                 <h1><?php the_title();?></h1>
             </div>

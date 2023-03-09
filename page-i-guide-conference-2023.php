@@ -20,7 +20,7 @@ else {
         </div> -->
     </div>
 
-    <div class="page-content tw-w-full tw-flex tw-relative tw-bg-white tw-mt-5 tw-mb-16">
+    <div class="page-content tw-w-full tw-flex tw-relative tw-mt-5">
         <div class="tw-container tw-mx-auto tw-px-4 tw-py-6">
             <?php
                 /* Start the Loop */

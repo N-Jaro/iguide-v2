@@ -70,9 +70,9 @@
                                 </div>
                                 <div class=" animate tw-col-start-3 tw-col-end-6 tw-self-start tw-relative animate__delay-3s">
                                     <div class="tab-card tw-h-[170px] lg:tw-h-[200px] xl:tw-h-[250px] tw-mx-10 tw-mb-5 md:tw-m-0 animate tw-rounded-lg tw-overflow-hidden tw-drop-shadow-md">
-                                        <a class="stretched-link" href="<?php echo home_url('/i-guide-webinar-series'); ?> "></a>
-                                        <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/webinar.png" alt="">
-                                        <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">I-GUIDE Webinars Series</h1>
+                                        <a class="stretched-link" href="<?php echo home_url('/i-guide-virtual-all-hands-meeting-2023'); ?> "></a>
+                                        <img class="object-cover tw-w-full tw-h-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/v-ahm-2023.png" alt="">
+                                        <h1 class=" tw-absolute tw-text-white tw-bottom-0 tw-font-semibold tw-px-3 tw-pb-4">I-GUIDE Virtual AHM 2023</h1>
                                     </div>
                                 </div>
                                 <div class="animate tw-col-start-6 tw-col-span-2 tw-self-start tw-row-start-1 tw-row-span-2 tw-relative md:tw-mt-20 animate__delay-4s">
@@ -257,12 +257,16 @@
             ?>
             <div class="<?php if($news_count>4) echo 'tw-hidden'; ?> tw-relative tw-border lg:tw-block tw-max-w-sm tw-rounded tw-overflow-hidden tw-ease-in tw-duration-300 tw-shadow-lg hover:tw-shadow-xl">
             
-                <a class="stretched-link" href="<?php echo the_permalink(); ?>"></a>
+                <a class="stretched-link" href="<?php (get_field("external_link")) ? the_field("external_link") : the_permalink(); ?>"></a>
                 <img class="tw-object-cover tw-h-[200px] tw-w-full"
                                             src="<?php echo ($attachment_src)? $attachment_src[0]: $default_img; ?>"
                                             alt="<?php the_title();?>">
                 <div class="tw-px-1 lg:tw-px-2 md:tw-px-6 tw-py-4">
                     <div class="tw-font-semibold tw-text-sm md:tw-text-sm lg:tw-text-base xl:tw-text-xl tw-mb-2"><?php the_title();?></div>
+                    <?php if ( $news_or_event[0]->slug == "event"){?>
+                        <p class="tw-font-light tw-mb-2 tw-text-sm"><strong>Event date:</strong> <?php echo get_field('event_date'); ?></p>
+                    <?php } ?>
+                    <p class="tw-text-gray-500 tw-font-light tw-italic tw-text-xs lg:tw-text-xs ">
                     <p class="tw-text-gray-500 tw-font-light tw-italic tw-text-xs lg:tw-text-sm ">
                         <?php my_post_time_ago(); ?>
                     </p>

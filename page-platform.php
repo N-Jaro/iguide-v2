@@ -16,11 +16,11 @@
                 content: "";
                 width: 100%;
                 height: 100%;
-                background-image: url('http://localhost/iguide/wp-content/themes/iguide-v2/assets/images/leftbg.jpeg');
+                background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/leftbg.jpeg');
                 display: block;
                 z-index: -100;
                 position: absolute;
-                opacity: 0.1;
+                opacity: 0.031;
                 background-size: cover;
             }
         </style>
@@ -35,11 +35,12 @@
                                 <div class="row align-items-center">
                                     <div class="col-12 text-center">
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/IGUIDE_logoH_ColorMulti.png" style="width: 70%;" class="mb-5 img-fluid"> <br>
-                                        <a href="<?php echo home_url('/discovery');?>" class="btn btn-warning shadow-sm mb-4">Launch I-GUIDE Featured Notebooks</a>
+                                        <a href="<?php echo home_url('/discovery');?>" class="btn btn-lg btn-warning shadow-sm">Launch I-GUIDE Notebooks</a><br>
+                                        <a href="https://iguide.cuahsi.io/discover" class="btn btn-lg btn-warning shadow-sm my-4">Launch I-GUIDE Data Catalog</a>
+                                        <p class="mb-2 fw-semibold" st>Addtional Resources</p>
+                                        <a class="text-center btn btn-sm btn-outline-secondary mb-2" href="<?php echo home_url('/iguide-data-and-computation-resources');?>">I-GUIDE Data & Computation Resources</a>
                                         <br>
-					<a href="https://iguide.cuahsi.io/discover" class="btn btn-warning shadow-sm  mb-4">Launch I-GUIDE Data Catalog</a>
-                                        <br>
-                                        <a style="font-size:15px;text-decoration:none;color:#a1a1a1;" class="text-center" href="<?php echo home_url('/iguide-data-and-computation-resources');?>">More I-GUIDE Resources</a>
+                                        <a class="text-center btn btn-sm btn-outline-secondary" href="<?php echo home_url('/projects/convergence-curriculum-for-geospatial-data-science');?>">Geospatial Data Science Curriculum</a>
                                     </div>
                                 </div>
                             </div> 
